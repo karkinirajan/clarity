@@ -1,0 +1,37 @@
+name: Checks
+
+on: [push]
+
+jobs:
+  test-lint:
+    name: Test and Lint
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Login to Docker hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{secrets.DOCKERHUB_USER}}
+          password: ${{secrets.DOCKER_TOKEN}}
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Compose
+        run: sudo apt-get update && sudo apt-get install -y docker-compose
+
+      - name: Start Docker Compose
+        run: docker-compose up -d
+
+      - name: Test
+        run: docker-compose run --rm app sh -c  "python manage.py test"
+
+      - name: Lint
+        run: docker-compose run --rm app sh -c "flake8"
+# This checks.yml file does the following:
+
+#     Logs in to Docker hub using the docker/login-action action with the credentials specified in GitHub secrets.
+#     Checks out the repository code using the actions/checkout action.
+#     Installs Docker Compose using the apt-get command.
+#     Starts the Docker Compose service using the docker-compose up command.
+#     Runs the Django test suite using the docker-compose run command.
+#     Runs the flake8 linter using the docker-compose run command.

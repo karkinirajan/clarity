@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="9ae0d8a0-e49f-443c-900c-5fa8771efce8" name="clarity_dev Mapping">
+      <data-sources db="c971e0f4-76f3-4179-9bcf-9fe71ee0a4a9" ddl="a542ca64-4876-49ec-85b0-57df7a93682d" />
+      <scope>
+        <node kind="database" qname="clarity_dev" />
+      </scope>
+    </mapping>
+  </component>
+</project>
