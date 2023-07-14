@@ -1,6 +1,12 @@
-from django.db import models
-from ckeditor.fields import RichTextField
+import os
+
 import openai
+from ckeditor.fields import RichTextField
+from django.db import models
+from dotenv import find_dotenv, load_dotenv
+
+_ = load_dotenv(find_dotenv())
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 class Company(models.Model):
@@ -190,9 +196,9 @@ class OpenaiDescription(models.Model):
         return self.company.company_name
 
     def save(self, *args, **kwargs):
-        openai.api_key = "REDACTED"
+        openai.api_key = openai_api_key  #  "set your key like this"  # Set API key
         response = openai.Completion.create(
-            engine="text-davinci-002",
+            engine="text-davinci-003",
             prompt=self.prompt,
             max_tokens=1024,
             temperature=0.5,

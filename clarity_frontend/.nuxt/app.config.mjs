@@ -1,5 +1,5 @@
 
-import { defuFn } from '/home/kneeraazon/clarity_frontend/node_modules/nuxt/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/home/kneeraazon/Clarity/clarity_frontend/node_modules/nuxt/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

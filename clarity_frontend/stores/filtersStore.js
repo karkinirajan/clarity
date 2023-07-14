@@ -8,9 +8,9 @@ export const useFiltersStore = defineStore({
 
         actions: {
             async fetchFilters() {
-                const response1 = await fetch("http://35.153.67.2/api/tags/");
-                const response2 = await fetch("http://35.153.67.2/api/subtags/");
-                const response3 = await fetch("http://35.153.67.2/api/regions/");
+                const response1 = await fetch("http://localhost:8000/api/tags/");
+                const response2 = await fetch("http://localhost:8000/api/subtags/");
+                const response3 = await fetch("http://localhost:8000/api/regions/");
                 const data1 = await response1.json();
                 const data2 = await response2.json();
                 const data3 = await response3.json();

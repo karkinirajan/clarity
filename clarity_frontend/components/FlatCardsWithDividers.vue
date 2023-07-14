@@ -130,7 +130,7 @@ const filterWithCheckedValuesAndSearchInput = computed(() => {
 });
 
 onMounted(async () => {
-  const response = await fetch(`http://35.153.67.2/api/tags/`);
+  const response = await fetch(`http://localhost:8000/api/tags/`);
   tags.value = await response.json();
 });
 </script>

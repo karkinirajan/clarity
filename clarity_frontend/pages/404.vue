@@ -17,6 +17,7 @@
           <div class="sm:border-l sm:border-gray-200 sm:pl-6">
             <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               Page not found
+              
             </h1>
             <p class="mt-1 text-base text-gray-500">
               Please check the URL in the address bar and try again.

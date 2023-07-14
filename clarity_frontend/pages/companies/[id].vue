@@ -180,10 +180,10 @@ const socials = [
   },
 ];
 const [company, tags] = await Promise.all([
-  fetch(`http://35.153.67.2/api/companies/${route.params.id}/`).then((response) =>
+  fetch(`http://localhost:8000/api/companies/${route.params.id}/`).then((response) =>
     response.json()
   ),
-  fetch("http://35.153.67.2/api/tags/").then((response) => response.json()),
+  fetch("http://localhost:8000/api/tags/").then((response) => response.json()),
 ]);
 
 company.tags = tags.filter((tag) => tag.company === company.id);

@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/kneeraazon/clarity_frontend/node_modules/nuxt/dist/app/entry.mjs": {
+  "/home/kneeraazon/Clarity/clarity_frontend/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/home/kneeraazon/clarity_frontend/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/home/kneeraazon/Clarity/clarity_frontend/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

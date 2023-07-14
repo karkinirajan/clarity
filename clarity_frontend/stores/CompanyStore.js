@@ -12,26 +12,26 @@ export const companyStore = defineStore({
     actions: {
 
         fetchTags: async function () {
-            const response = await fetch("http://35.153.67.2/api/tags/");
+            const response = await fetch("http://localhost:8000/api/tags/");
             this.tags = await response.json();
         },
         fetchSubTags: async function () {
-            const response = await fetch("http://35.153.67.2/api/subtags/");
+            const response = await fetch("http://localhost:8000/api/subtags/");
             this.subtags = await response.json();
         },
 
         fetchRegions: async function () {
-            const response = await fetch("http://35.153.67.2/api/regions/");
+            const response = await fetch("http://localhost:8000/api/regions/");
             this.regions = await response.json();
         },
         fetchData: async function () {
             this.loading = true;
 
             const [companies, tags, regions, subtags] = await Promise.all([
-                fetch("http://35.153.67.2/api/companies/").then(response => response.json()),
-                fetch("http://35.153.67.2/api/tags/").then(response => response.json()),
-                fetch("http://35.153.67.2/api/regions/").then(response => response.json()),
-                fetch("http://35.153.67.2/api/subtags/").then(response => response.json()),
+                fetch("http://localhost:8000/api/companies/").then(response => response.json()),
+                fetch("http://localhost:8000/api/tags/").then(response => response.json()),
+                fetch("http://localhost:8000/api/regions/").then(response => response.json()),
+                fetch("http://localhost:8000/api/subtags/").then(response => response.json()),
             ]);
 
             companies.forEach(company => {

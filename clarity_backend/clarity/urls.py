@@ -68,7 +68,7 @@ pattern_base = f'(?!{"|".join(urls)})'
 pattern_index = f"^{pattern_base}.*$"
 # print(pattern_index)
 urlpatterns += [
-    re_path(pattern_index, index_view, name="Home"),
+    re_path(pattern_index, SpectacularSwaggerView.as_view(), name="index"),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

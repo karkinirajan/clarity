@@ -61,7 +61,7 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 
 const company = await fetch(
-  `http://35.153.67.2/api/companies/${route.params.id}/`
+  `http://localhost:8000/api/companies/${route.params.id}/`
 ).then((response) => response.json());
 
 const pages = computed(() => {
