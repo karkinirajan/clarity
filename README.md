@@ -1,4 +1,4 @@
-# Clarity: Full-Stack Application for Frontend and Backend  
+## Clarity: Full-Stack Application for Frontend and Backend  
 
 ## Overview  
 
