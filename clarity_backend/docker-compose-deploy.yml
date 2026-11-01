@@ -1,43 +1,50 @@
-version: "3.8"
-
+# Production-style stack: gunicorn + PostgreSQL + nginx on port 80.
+#   cp deploy.env.example deploy.env   (then edit)   or export the variables
+#   docker compose -f docker-compose-deploy.yml up -d --build
+# TLS is not terminated here: put a TLS proxy / load balancer in front, or keep HTTPS_ONLY=false
+# while the site is reachable over plain HTTP only.
 services:
   app:
-    build:
-      context: .
+    build: .
     restart: always
-    volumes:
-      - static_data:/vol/web
     environment:
-      - DB_HOST=db
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_PASS=${DB_PASS}
-      - SECRET_KEY=${DJANGO_SECRET_KEY}
-      - ALLOWED_HOSTS=${DJANGO_ALLOWED_HOSTS}
+      SECRET_KEY: ${DJANGO_SECRET_KEY:?set DJANGO_SECRET_KEY}
+      ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:?set DJANGO_ALLOWED_HOSTS}
+      DATABASE_URL: postgres://${DB_USER:?}:${DB_PASS:?}@db:5432/${DB_NAME:?}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-}
+      CSRF_TRUSTED_ORIGINS: ${CSRF_TRUSTED_ORIGINS:-}
+      HTTPS_ONLY: ${HTTPS_ONLY:-true}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-}
+    volumes:
+      - web_data:/vol/web
     depends_on:
-      - db
+      db:
+        condition: service_healthy
 
   db:
-    image: postgres:13-alpine
+    image: postgres:17-alpine
     restart: always
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASS}
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
 
   proxy:
-    build:
-      context: ./proxy
+    build: ./proxy
     restart: always
-    depends_on:
-      - app
-    ports:
-      - 80:8000
+    depends_on: [app]
+    ports: ["80:8000"]
     volumes:
-      - static_data:/vol/static
+      - web_data:/vol/web:ro
 
 volumes:
-  postgres-data:
-  static_data:
+  postgres_data:
+  web_data:

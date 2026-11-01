@@ -5,7 +5,6 @@ from .models import (
     Tag,
     SubTag,
     FounderSocialToSocial,
-    CompanySocialToSocial,
 )
 
 
@@ -32,8 +31,3 @@ class SubTagResource(resources.ModelResource):
 class FounderSocialToSocialResource(resources.ModelResource):
     class Meta:
         model = FounderSocialToSocial
-
-
-class CompanySocialToSocialResource(resources.ModelResource):
-    class Meta:
-        model = CompanySocialToSocial

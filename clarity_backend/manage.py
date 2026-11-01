@@ -1,11 +1,18 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+
 import os
 import sys
 
 
 def main():
     """Run administrative tasks."""
+    try:  # a local .env is optional (python-dotenv is a regular dependency)
+        from dotenv import load_dotenv
+
+        load_dotenv()
+    except ImportError:
+        pass
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "clarity.settings")
     try:
         from django.core.management import execute_from_command_line

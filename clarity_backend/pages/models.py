@@ -1,12 +1,12 @@
-import os
+import logging
 
-import openai
 from ckeditor.fields import RichTextField
 from django.db import models
-from dotenv import find_dotenv, load_dotenv
+from django.utils.html import strip_tags
 
-_ = load_dotenv(find_dotenv())
-openai_api_key = os.getenv("OPENAI_API_KEY")
+from .services import GenerationUnavailable, generate_text
+
+logger = logging.getLogger(__name__)
 
 
 class Company(models.Model):
@@ -40,9 +40,7 @@ class AdminNotes(models.Model):
     Model representing administrative notes for a company.
     """
 
-    company = models.ForeignKey(
-        Company, related_name="admin_notes", on_delete=models.CASCADE
-    )
+    company = models.ForeignKey(Company, related_name="admin_notes", on_delete=models.CASCADE)
     note = RichTextField(blank=True)
 
     def __str__(self):
@@ -62,9 +60,7 @@ class Social(models.Model):
 
     social_media = models.CharField(max_length=255)
     link = models.URLField(null=True, blank=True)
-    company = models.ForeignKey(
-        Company, related_name="socials", on_delete=models.CASCADE
-    )
+    company = models.ForeignKey(Company, related_name="socials", on_delete=models.CASCADE)
 
     def __str__(self):
         """
@@ -84,9 +80,7 @@ class Founder(models.Model):
 
     name = models.CharField(max_length=255)
     role = models.CharField(max_length=255)
-    company = models.ForeignKey(
-        Company, related_name="founders", on_delete=models.CASCADE
-    )
+    company = models.ForeignKey(Company, related_name="founders", on_delete=models.CASCADE)
 
     def __str__(self):
         """
@@ -104,9 +98,7 @@ class Region(models.Model):
     """
 
     region = models.CharField(max_length=255)
-    company = models.ForeignKey(
-        Company, related_name="regions", on_delete=models.CASCADE
-    )
+    company = models.ForeignKey(Company, related_name="regions", on_delete=models.CASCADE)
 
     def __str__(self):
         """
@@ -142,9 +134,7 @@ class SubTag(models.Model):
     """
 
     sub_tag = models.CharField(max_length=255)
-    company = models.ForeignKey(
-        Company, related_name="subtags", on_delete=models.CASCADE
-    )
+    company = models.ForeignKey(Company, related_name="subtags", on_delete=models.CASCADE)
     tag = models.ForeignKey(
         Tag, on_delete=models.CASCADE, related_name="subtags", null=True, blank=True
     )
@@ -195,18 +185,25 @@ class OpenaiDescription(models.Model):
     def __str__(self):
         return self.company.company_name
 
+    _loaded_prompt = None
+
+    @classmethod
+    def from_db(cls, db, field_names, values):
+        instance = super().from_db(db, field_names, values)
+        instance._loaded_prompt = instance.__dict__.get("prompt")
+        return instance
+
     def save(self, *args, **kwargs):
-        openai.api_key = openai_api_key  #  "set your key like this"  # Set API key
-        response = openai.Completion.create(
-            engine="text-davinci-003",
-            prompt=self.prompt,
-            max_tokens=1024,
-            temperature=0.5,
-            top_p=1,
-            n=1,
-            stop=None,
-            frequency_penalty=0,
-            presence_penalty=0,
-        )
-        self.generated_text = response.choices[0].text.strip()
+        """Draft the text when there is a new or changed prompt.
+
+        This used to call the OpenAI completions API on *every* save (so any edit of a note
+        cost money, and a network error made the save fail). Now it asks only when the prompt
+        is new or changed, and a failure is logged and the description is saved without text.
+        """
+        if self.prompt and (not self.generated_text or self.prompt != self._loaded_prompt):
+            try:
+                self.generated_text = generate_text(strip_tags(self.prompt))
+            except GenerationUnavailable as error:
+                logger.warning("No generated text for company %s: %s", self.company_id, error)
         super().save(*args, **kwargs)
+        self._loaded_prompt = self.prompt

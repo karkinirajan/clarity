@@ -1,37 +1,31 @@
-FROM python:3.9-alpine3.13
-LABEL maintainer="kneeraazon@gmail.com"
+FROM python:3.13-slim-trixie
 
-ENV PYTHONUNBUFFERED 1
+COPY --from=ghcr.io/astral-sh/uv:0.13.6 /uv /usr/local/bin/uv
 
-COPY ./requirements.txt /tmp/requirements.txt
-COPY ./scripts /scripts
-COPY . /app
+ENV UV_PROJECT_ENVIRONMENT=/opt/venv \
+    UV_PYTHON_DOWNLOADS=never \
+    UV_COMPILE_BYTECODE=1 \
+    PATH="/opt/venv/bin:$PATH" \
+    PYTHONUNBUFFERED=1 \
+    STATIC_ROOT=/vol/web/static \
+    MEDIA_ROOT=/vol/web/media
+
 WORKDIR /app
-EXPOSE 8000
 
-ARG DEV=false
-RUN python -m venv /py && \
-    /py/bin/pip install --upgrade pip && \
-    apk add --update --no-cache postgresql-client jpeg-dev && \
-    apk add --update --no-cache --virtual .tmp-build-deps \
-    build-base postgresql-dev musl-dev zlib zlib-dev linux-headers && \
-    /py/bin/pip install -r /tmp/requirements.txt && \
-    if [ $DEV = "true" ]; \
-    then /py/bin/pip install -r /tmp/requirements.dev.txt ; \
-    fi && \
-    rm -rf /tmp && \
-    apk del .tmp-build-deps && \
-    adduser \
-    --disabled-password \
-    --no-create-home \
-    --shell /sbin/nologin \
-    django-user && \
-    mkdir -p /vol/web/media && \
-    mkdir -p /vol/web/static && \
-    chown -R django-user:django-user /vol && \
-    chmod -R 755 /vol && \
-    chmod -R +x /scripts && \
-    chmod +x /app/staticfiles && \
-    chown -R django-user /app/staticfiles
+# dependencies first so they stay cached when only the source changes;
+# build with --build-arg WITH_DEV=1 to include the test tools
+ARG WITH_DEV=0
+COPY pyproject.toml uv.lock .python-version ./
+RUN if [ "$WITH_DEV" = "1" ]; then uv sync --frozen --no-install-project; \
+    else uv sync --frozen --no-dev --no-install-project; fi
 
+COPY . .
 
+RUN useradd -m -u 1000 appuser \
+    && mkdir -p /vol/web/static /vol/web/media /app/databases \
+    && chown -R appuser:appuser /app /vol/web
+USER appuser
+
+VOLUME /vol/web
+EXPOSE 9000
+CMD ["/app/scripts/run.sh"]

@@ -1,19 +1,21 @@
 server {
-    listen 80;
-    server_name 100.26.142.5;
-
-    location / {
-        proxy_pass http://backend;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    }
+    listen ${LISTEN_PORT};
+    server_name _;
+    client_max_body_size 10M;
 
     location /static/ {
-        alias /code/static/;
+        alias /vol/web/static/;
     }
 
     location /media/ {
-        alias /code/media/;
+        alias /vol/web/media/;
+    }
+
+    location / {
+        proxy_pass http://${APP_HOST}:${APP_PORT};
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
     }
 }

@@ -1,4 +1,6 @@
 from rest_framework import serializers
+
+from .sanitize import clean_html
 from .models import (
     Company,
     AdminNotes,
@@ -11,11 +13,13 @@ from .models import (
     OpenaiDescription,
 )
 
-from rest_framework import serializers
-from .models import Company
-
 
 class CompanySerializer(serializers.ModelSerializer):
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
+        data["description"] = clean_html(data["description"])  # shown with v-html by the front-end
+        return data
+
     class Meta:
         model = Company
         fields = (

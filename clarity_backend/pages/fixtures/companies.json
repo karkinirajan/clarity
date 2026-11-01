@@ -1,0 +1,2479 @@
+[
+{
+ "model": "pages.company",
+ "pk": 1,
+ "fields": {
+  "company_name": "Amplitude",
+  "logo": "company_logos/logo_oFq0Yk3.png",
+  "link": "https://amplitude.com",
+  "short_description": "Pioneering Digital Optimization",
+  "founded": "2012",
+  "team_size": 500,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Amplitude is the global leader in Digital Optimization. More than 1,000 customers, including Ford, Peloton, Pepsico, Shopify, Athenahealth and 23 of the Fortune 100, rely on Amplitude to help them innovate faster and smarter by answering the strategic question: \"How do our digital products drive our business?\" The Amplitude Digital Optimization System makes critical data accessible and actionable to every team — unifying product, marketing, developers, and executive teams around a new depth of customer understanding and common visibility into what drives business outcomes. Amplitude is the #1 leader in product analytics. Learn how to optimize your digital products and business at amplitude.com. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 2,
+ "fields": {
+  "company_name": "Gusto",
+  "logo": "company_logos/logo_mAgDMYI.png",
+  "link": "https://gusto.com",
+  "short_description": "Provides growing businesses with everything to take care of their team",
+  "founded": "2011",
+  "team_size": 2000,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Launched in 2012 as ZenPayroll, Gusto serves more than 200,000 businesses nationwide. Each year we process tens of billions of dollars of payroll and provide employee benefits—like health insurance and 401(k) accounts—while helping companies create incredible work places.\n\nThrough one refreshingly easy, integrated platform, we automate and simplify your payroll, benefits, and HR, all while providing expert support. You and your employees will get the peace of mind you need to do your best work."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 3,
+ "fields": {
+  "company_name": "Benchling",
+  "logo": "company_logos/logo_3I8XThN.png",
+  "link": "http://benchling.com",
+  "short_description": "Unlocking the power of biotech with modern software for modern science",
+  "founded": "2012",
+  "team_size": 700,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Biotechnology is rewriting life as we know it, from the medicines we take, to the crops we grow, the materials we wear, and the household goods that we rely on every day. Biotech R&D is radically transforming our world, but to move at the new speed of science, scientists need better technology.\n\nBenchling’s mission is to unlock the power of biotechnology. The world’s biotech leaders and innovators use our R&D Cloud to power the development of breakthrough products and accelerate time to milestone and market."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 4,
+ "fields": {
+  "company_name": "Zapier",
+  "logo": "",
+  "link": "http://zapier.com",
+  "short_description": "The easiest way to automate your work.",
+  "founded": "2011",
+  "team_size": 400,
+  "location": "Mountain View",
+  "country": null,
+  "description": "Founded in 2011, Zapier has helped over 1.8 million individuals and businesses with their automation needs. The company connects over 2,000 apps to help people be more productive at work, saving customers up to 20 hours per week. By helping to discover and weave together web applications that increase productivity and success, Zapier is changing the way people work."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 5,
+ "fields": {
+  "company_name": "Segment",
+  "logo": "company_logos/logo_dwHoBw5.png",
+  "link": "http://segment.com",
+  "short_description": "Software and APIs to collect, clean, and control customer data.",
+  "founded": "2011",
+  "team_size": 550,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Segment is one place to collect customer data and send it to your tools for analytics, marketing automation, and raw data access with SQL. Implement all of your event tracking with Segment’s single API instead of wrangling a new API for every new tool or database. Segment's integrations let you send your data to hundreds of tools and databases."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 6,
+ "fields": {
+  "company_name": "Podium",
+  "logo": "company_logos/logo_sdZfTzH.png",
+  "link": "https://podium.com",
+  "short_description": "An interaction and payments platform for local businesses.",
+  "founded": "2014",
+  "team_size": 830,
+  "location": "Lehi, UT",
+  "country": null,
+  "description": "Podium is a suite of messaging tools for local business. Using our platform, businesses of all sizes can connect with customers via text to do things like request payments, collect reviews, and sell products, in a modern, convenient way. Our work streamlining this process for local businesses has awarded us recognition on top industry lists, such as Forbes’ Next Billion Dollar Startups, Forbes’ Cloud 100, the Inc. 5000 (#13), and Fast Company’s World’s Most Innovative Companies — in the last year alone.\n\nHeadquartered in Lehi, Utah, and founded in 2014, Podium is currently backed by Accel, Summit Partners, GV (formerly Google Ventures), and Y Combinator."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 7,
+ "fields": {
+  "company_name": "Algolia",
+  "logo": "company_logos/logo_axqH2Mf.png",
+  "link": "http://www.algolia.com",
+  "short_description": "A developer-friendly and enterprise-grade search API.",
+  "founded": "2012",
+  "team_size": 350,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Our mission is to make every search interaction meaningful & rewarding, through developer-friendly and enterprise-grade APIs.\n\nAlgolia is the leading Search & Discovery API for websites and mobile apps. We help the most innovative companies across e-commerce, media and SaaS industries create powerful, relevant and scalable discovery experiences for their users. Unlike other solutions, our hosted platform reduces the complexities of building and scaling a fast, relevant digital experience and helps teams accelerate development time. More than 9,000 companies like Under Armour, Twitch, Periscope, Medium and Stripe rely on Algolia to manage 50+ billion search queries a month.\n\nFounded in 2012, we're backed by $184M in funding from Accel Partners, Alven Capital, Point Nine Capital and Storm Ventures. The team is headquartered in San Francisco with offices in Paris, London, New York, and Atlanta. To learn more, visit www.algolia.com.\n\n---\nWe’re looking for talented, passionate people to build the world’s best search technology. As an ownership-driven company, we seek team members who thrive under autonomy and diversity. \n\nWe're committed to building an inclusive and diverse workplace. We care about each other and the world around us, and embrace talented people regardless of their race, age, ancestry, religion, sex, gender identity, sexual orientation, marital status, color, veteran status, disability and socioeconomic background"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 8,
+ "fields": {
+  "company_name": "Vetcove",
+  "logo": "company_logos/logo_tcgWAjN.png",
+  "link": "https://www.vetcove.com",
+  "short_description": "Powering the animal health supply chain.",
+  "founded": "2015",
+  "team_size": 52,
+  "location": "Miami, FL",
+  "country": null,
+  "description": "Vetcove is how veterinarians buy the supplies they need to keep America's pets healthy.  Our community of more than 15,000 veterinary hospitals employs tens of thousands of veterinarians and delivers care to many millions of animals every year across all 50 states.  As of 2022, we power purchasing and supply chain infrastructure for nearly half of America's general practices, emergency and specialty clinics, SPCAs, zoos, aquariums, and veterinary consolidators.\n\nVetcove's eCommerce and mobile platforms afford veterinary hospitals a frictionless purchasing experience, and facilitate delivery of medications to pet parents across the country. Simply put, Vetcove helps veterinary organizations spend more time giving care, and less time comparing suppliers and managing inventory. We're completely revolutionizing the way veterinarians discover and buy products, and how animal health brands engage their veterinary customers.\n\nWe're hiring!  Come join us on our journey to transform how vets buy and prescribe the animal healthcare products that keep our pets in peak condition."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 9,
+ "fields": {
+  "company_name": "Sift",
+  "logo": "company_logos/logo_ZmqwdMj.png",
+  "link": "https://sift.com/",
+  "short_description": "Digital trust and safety suite for businesses.",
+  "founded": "2011",
+  "team_size": 405,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Sift Science is a Series E company that facilitates the largest trust network of online businesses and consumers on the internet.\n\nThe Sift Science Trust PlatformTM uses real-time machine learning to accurately predict which users businesses can trust, and which ones they can’t. The upshot? Consumers know which companies they can entrust with their personal and financial information. And businesses can customize each user's experience based on their trust score – which leads to more revenue, higher conversion rates, and less fraud and abuse. Try it for free or learn more at https://sift.com"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 10,
+ "fields": {
+  "company_name": "Vanta",
+  "logo": "company_logos/logo_f7OXkrP.png",
+  "link": "https://vanta.com",
+  "short_description": "Automated security and compliance for startups.",
+  "founded": "2017",
+  "team_size": 275,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Vanta is on a mission to protect consumer data and restore trust in internet businesses. \n\nVanta was founded in 2016, in the wake of several high-profile data breaches that shook our collective faith in internet businesses. Online security was only becoming more important, but we knew firsthand how hard it could be for fast-growing companies to invest the time and manpower it takes to build a solid security foundation.\n\nWe started by automating security monitoring for compliance certifications like SOC 2, HIPAA, and ISO 27001. But that’s just the beginning. Vanta’s vision is to restore trust in internet businesses by enabling companies to improve and prove their security and compliance posture to their customers, prospects, and partners.\n\nVanta was built on the idea that software can be used to do amazing things for the world—if we trust it to do so. We build security tools that help internet businesses get secure and prove their security. And we can’t do it alone. Come join us!"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 11,
+ "fields": {
+  "company_name": "Jasper",
+  "logo": "company_logos/logo_sG2x67b.png",
+  "link": "https://jasper.ai",
+  "short_description": "Jasper is a leader in creating content using Artificial Intelligence",
+  "founded": "2021",
+  "team_size": 130,
+  "location": "Austin, TX",
+  "country": null,
+  "description": "Jasper is trained to write original, creative content including blog articles, social media posts, website copy, and more. Our clients include global enterprise customers, editors and bloggers. Using the latest OpenAI technologies, Jasper is on the forefront of creating content using proprietary technology and unique product offerings. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 12,
+ "fields": {
+  "company_name": "Snapdocs",
+  "logo": "company_logos/logo_aYFvicL.png",
+  "link": "http://snapdocs.com",
+  "short_description": "Snapdocs digitizes real estate closings",
+  "founded": "2014",
+  "team_size": 520,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Snapdocs powers homeownership. Using technology, we’re building the connective tissue for an entire pillar of the U.S. economy: residential real estate. \n\nToday, we’re working to perfect mortgage closings, but that’s only the beginning. If we succeed, more than five million families per year will gain clarity and transparency as they make the biggest financial decision of their lives: buying a home. Before Snapdocs, no one felt responsible or empowered to solve the problems we face every day we come to the office. \n\nIt's complex and difficult work, and the result is not an app we brag about at tech industry parties. Instead, we're making a difference and carefully building a team that shares our priorities—pragmatism, respect and empathy for our clients, and building honest products that improve all our users’ lives."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 13,
+ "fields": {
+  "company_name": "Gem",
+  "logo": "company_logos/logo_guxXAif.png",
+  "link": "https://www.gem.com/",
+  "short_description": "The platform for modern recruiting.",
+  "founded": "2017",
+  "team_size": 254,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Gem’s mission is to help companies hire great teams. Our talent engagement platform enables recruiting teams to build relationships that lead to diverse, high-quality talent pipelines, a great candidate experience, and predictable hiring at any scale. By creating a source of truth for all relationships with talent, Gem can automate personalized outreach, while also generating insights about the entire recruiting process."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 14,
+ "fields": {
+  "company_name": "Frubana Inc",
+  "logo": "company_logos/logo_YRKTHkU.png",
+  "link": "https://www.frubana.com",
+  "short_description": "The everything store for restaurants in LATAM.",
+  "founded": "2018",
+  "team_size": 150,
+  "location": "São Paulo, Brazil",
+  "country": null,
+  "description": ""
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 15,
+ "fields": {
+  "company_name": "Odeko",
+  "logo": "company_logos/logo_LRzu4AI.png",
+  "link": "http://www.odeko.com",
+  "short_description": "Our operations software makes it easier to run--and grow--your cafe",
+  "founded": "2019",
+  "team_size": 371,
+  "location": "New York",
+  "country": null,
+  "description": "We’re a passionate team of dreamers and builders, determined to liberate small businesses from the not-so-fun aspects of the job so that they can focus on what’s fun and important."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 16,
+ "fields": {
+  "company_name": "Shogun",
+  "logo": "company_logos/logo_K90nD8g.png",
+  "link": "https://getshogun.com/",
+  "short_description": "Shogun empowers brands to create exceptional ecommerce experience.",
+  "founded": "2015",
+  "team_size": 168,
+  "location": "Palo Alto",
+  "country": null,
+  "description": "Shogun is an ecommerce experience platform empowering brands to drive higher conversions, revenue, and brand loyalty. Our products Shogun Page Builder and Shogun Frontend help teams build and optimize their online stores to deliver exceptional experiences. Our products integrate with ecommerce platforms like Shopify and BigCommerce, and our 20,000+ customers include Leesa, MVMT, Timbuk2, and Chubbies. Visit www.getshogun.com for more.\n\nWe're an inclusive, remote, diverse, and globally distributed team. And we’re hiring!"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 17,
+ "fields": {
+  "company_name": "Instabug",
+  "logo": "company_logos/logo_T2GwSDD.png",
+  "link": "https://instabug.com",
+  "short_description": "Mobile Apps Observability and Performance Monitoring Platform",
+  "founded": null,
+  "team_size": 190,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Monitor, prioritize, and debug performance and stability issues throughout the entire mobile app development lifecycle."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 18,
+ "fields": {
+  "company_name": "Torch",
+  "logo": "company_logos/logo_U1mvWrj.png",
+  "link": "https://torch.io/",
+  "short_description": "",
+  "founded": "2017",
+  "team_size": 160,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Torch is a learning and development company that helps employers manage and measure employee growth at scale. Customers can draw from a pool of over 6000 mentors and coaches to pair with high performers and new managers at any layer of the organization. \n\nTorch was founded by a team of executive coaches and experienced psychologists who are passionate about helping all professionals perform at their highest level.\n\nTorch is on a mission to empower managers to thrive in high growth, high-performance cultures by building the self-awareness and skills required to manage and lead effectively."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 19,
+ "fields": {
+  "company_name": "UpKeep",
+  "logo": "company_logos/logo_1Uw31Af.png",
+  "link": "https://www.upkeep.com/",
+  "short_description": "Mobile-first software for maintenance teams.",
+  "founded": "2016",
+  "team_size": 150,
+  "location": "Los Angeles, CA",
+  "country": null,
+  "description": "Mobile-First CMMS/Enterprise Asset Management System\n \nUpKeep is asset and maintenance management — done the right way. We take a mobile-first approach to the traditional desktop-based enterprise software. We keep technicians out in the field working on the most pressing issues — saving precious time and money. Tracking the costs of assets over their lifetime is now easier than ever. We keep businesses more efficient and streamline their workflow by eliminating paper work orders.\n \nWe currently have over 200,000 registered users from small businesses to large enterprises. We offer low-cost solutions with transparent pricing to a common problem that many companies face. Our vision is to provide the best mobile solution for asset and work order management in a space that is dominated by traditional enterprise software companies. We've raised a total of $50 million from Y Combinator, Battery Ventures, Bain Capital, Emergence Capital, and Insight Partners. \n\n-Assign work orders\n-Create and save tasks\n-UPC Label scanning\n-Create assets and assign work orders to assets\n-Preview for analytical graphs\n\nWe are a Y Combinator-backed company (YC W17)"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 20,
+ "fields": {
+  "company_name": "Sqreen",
+  "logo": "company_logos/logo_NjN0MSr.png",
+  "link": "https://www.sqreen.com/",
+  "short_description": "Sqreen is the application security platform for the modern enterprise",
+  "founded": "2015",
+  "team_size": 65,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Sqreen is the application security platform for the modern enterprise. More than 800 organizations trust Sqreen to protect, observe and test their applications, APIs and microservices. As opposed to pattern-based approaches, Sqreen analyses in-app execution in real time to deliver more robust security without compromising performance."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 21,
+ "fields": {
+  "company_name": "Nuvocargo",
+  "logo": "company_logos/logo_48UI7Lv.png",
+  "link": "http://www.nuvocargo.com",
+  "short_description": "Your all-in-one digital platform for trade across the Americas",
+  "founded": "2019",
+  "team_size": 150,
+  "location": "Mexico City, Mexico",
+  "country": null,
+  "description": "Nuvocargo is a digital-first freight forwarder and licensed US customs broker focused on helping shippers seamlessly move cargo over the road between USA and Mexico. Our goal is to make your life easier by combining exceptional service with beautiful software so that moving your products between USA and Mexico is less painful and more intuitive.\n\nWe are the **one-stop shop** for shippers for everything they need in their USA/Mexico cross-border supply chain; this includes procuring freight in both Mexico & USA, customs clearance, insurance, trade finance, reporting, and more. We act as an extension of your team so you can outsource to Nuvocargo all the complexities & vendor management associated with your cross border supply chain."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 22,
+ "fields": {
+  "company_name": "OneSignal",
+  "logo": "company_logos/logo_uU6iE6I.png",
+  "link": "https://onesignal.com",
+  "short_description": "Customer messaging via push notifications, email, SMS, & in-app.",
+  "founded": "2011",
+  "team_size": 100,
+  "location": "San Mateo, CA",
+  "country": null,
+  "description": "OneSignal is building the best platform for businesses to intelligently engage with customers across every channel. We provide a simple interface to push notifications, email, SMS, and in-app messages, letting content creators focus on quality user engagement instead of complex implementation.\n\nWhen you pick up your smartphone, the first thing you see is a push notification - maybe there’s a breaking news alert, a message from a dating site, or football scores… Whatever it is, chances are it came from us."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 23,
+ "fields": {
+  "company_name": "Convictional",
+  "logo": "company_logos/logo_iZ7182k.png",
+  "link": "https://convictional.com",
+  "short_description": "Enabling every company to automate B2B trade",
+  "founded": "2017",
+  "team_size": 55,
+  "location": "Toronto, Canada",
+  "country": null,
+  "description": "Convictional helps enterprise retailers source, onboard and transact with third party sellers."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 24,
+ "fields": {
+  "company_name": "Nash",
+  "logo": "company_logos/logo_wubRRtO.png",
+  "link": "https://www.usenash.com/",
+  "short_description": "The easiest way for any business to offer delivery",
+  "founded": "2021",
+  "team_size": 31,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Nash makes it easy for businesses to offer same-day delivery. We do this by building business workflows on top of delivery APIs (like Doordash, Uber, Skipcart). For example, a local dry-cleaning business can start offering pickup and dropoff service at a customer’s desired time without operating their own fleet."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 25,
+ "fields": {
+  "company_name": "Submittable",
+  "logo": "company_logos/logo_4nfwLEN.png",
+  "link": "https://www.submittable.com/",
+  "short_description": "The best way to launch, manage and measure social impact programs",
+  "founded": "2010",
+  "team_size": 165,
+  "location": "Missoula, MT",
+  "country": null,
+  "description": "Submittable is a growing social impact platform used by thousands of companies, governments, and philanthropic organizations to manage their social impact programs and maximize their impact.\n\nSubmittable has helped big and small organizations worldwide run 134,000 programs and collect nearly 22 million applications to date, and is backed by Accel-KKR, Next Coast Ventures, True Ventures, Next Frontier Capital, StepStone Group and a few other amazing investors."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 26,
+ "fields": {
+  "company_name": "GiveCampus",
+  "logo": "company_logos/logo_sYAXxSy.png",
+  "link": "http://go.givecampus.com",
+  "short_description": "GiveCampus is the digital fundraising platform for schools.",
+  "founded": "2014",
+  "team_size": 75,
+  "location": "San Francisco",
+  "country": null,
+  "description": "GiveCampus is the world's #1 fundraising platform for non-profit educational institutions. Trusted by millions of donors and more than 1,000 colleges, universities, and K-12 schools, our mission is to advance the quality, the affordability, and the accessibility of education. We provide software, services, and expertise that help schools raise more money, from more people, at a fraction of the cost of other fundraising methods. Since 2015, our platform has facilitated more than $2 billion in charitable giving."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 27,
+ "fields": {
+  "company_name": "Eden Workplace",
+  "logo": "company_logos/logo_H8KM6t4.png",
+  "link": "https://www.edenworkplace.com",
+  "short_description": "People operations and workplace software",
+  "founded": "2015",
+  "team_size": 55,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Eden Workplace is the complete suite of software to manage the modern hybrid office. Our SaaS offerings include COVID Team Safety, Visitor Management, Desk Reservations, Room Scheduling, Facilities Management, and more. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 28,
+ "fields": {
+  "company_name": "Cognito",
+  "logo": "company_logos/logo_YW6f5Nu.png",
+  "link": "https://cognitohq.com",
+  "short_description": "Frictionless, modern identity verification that starts with just a…",
+  "founded": "2013",
+  "team_size": 12,
+  "location": "Palo Alto",
+  "country": null,
+  "description": "Cognito is the highest converting ID verification system on the market. By starting with just a user's phone number, Cognito can verify their name, date of birth, address, phone, and Social Security Number. The strong link formed between a user and their phone number builds trust while reducing friction."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 29,
+ "fields": {
+  "company_name": "Treinta",
+  "logo": "company_logos/logo_nBzzCik.png",
+  "link": "https://www.treinta.co",
+  "short_description": "Digital ledger App for Latam microbusinesses",
+  "founded": "2020",
+  "team_size": 250,
+  "location": "Bogotá, Colombia",
+  "country": null,
+  "description": "Treinta is a digital ledger app for Latin American microbusinesses. Through Treinta, users can easily record transactions by assigning products from their inventory and see how their business metrics evolve in real time. The app helps owners save up to 30 minutes a day in bookkeeping related tasks and improve efficiency by over 30%. Out of the 50 million microbusinesses in LATAM, today 90% still track their sales and expenses by using pen and paper."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 30,
+ "fields": {
+  "company_name": "MarqVision",
+  "logo": "",
+  "link": "https://www.marqvision.com/",
+  "short_description": "We help global brands remove counterfeits from online marketplaces.",
+  "founded": "2020",
+  "team_size": 60,
+  "location": "Los Angeles, CA",
+  "country": null,
+  "description": "MarqVision helps global brands take down counterfeits from online marketplaces (think: Amazon + Alibaba). MarqVision uses AI-powered anti-counterfeiting software to automate the detection and reporting of counterfeits. Fueled by e-commerce and social media, counterfeiting is the largest criminal enterprise in the world, with annual sales surpassing $2 trillion last year. Founded by Harvard Law Students and backed by Softbank and Y Combinator, MarqVision raised a $5 million seed round and reached $1 million in ARR since launching in November 2020. (HQ: Los Angeles)"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 31,
+ "fields": {
+  "company_name": "Ashby",
+  "logo": "company_logos/logo_WOD1Mus.png",
+  "link": "https://www.ashbyhq.com",
+  "short_description": "All-in-one recruiting software for high growth companies",
+  "founded": "2018",
+  "team_size": 55,
+  "location": "San Francisco",
+  "country": null,
+  "description": "At Ashby, we're improving the productivity of working professionals with intelligent and powerful software. We put a lot of effort into designing products that are approachable to beginners but mastered & extended by power users. In many ways, spreadsheets set the bar here.\n\nOur first products provide talent teams with clever automation, powerful analytics tools, and customizable workflows packaged in great UX. We haven't launched publicly, but we have many paying customers who love us and use us every day like Opendoor, Airtable, Duolingo, and Notion. Notion's Head of Talent said Ashby is \"probably the tool we are in the most and rely on the most, as a recruiting team.\"\n\nOur culture is motivated by Abhik's (my co-founder and Head of Engineering) and my belief that a small talented team, given the right environment, can build a great product and service fast (and work regular hours!). We hire exceptional, kind, thoughtful people and provide an environment where we can be happy, feel challenged, and do our best work.\n\nWe are well funded and backed by great investors, including Y Combinator, Elad Gil, and Lachy Groom. We'll share more once we meet!"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 32,
+ "fields": {
+  "company_name": "Curri",
+  "logo": "company_logos/logo_GbGRIBO.png",
+  "link": "http://www.curri.com",
+  "short_description": "Construction logistics.",
+  "founded": "2018",
+  "team_size": 73,
+  "location": "Ventura, CA",
+  "country": null,
+  "description": "Curri provides on-demand, last-mile logistics for construction and adjacent industries with our nationwide fleet of cars, trucks, and flatbeds. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 33,
+ "fields": {
+  "company_name": "GitPrime",
+  "logo": "company_logos/logo_meDVMHL.png",
+  "link": "https://www.gitprime.com",
+  "short_description": "Visibility and analytics for software development leaders.",
+  "founded": "2014",
+  "team_size": 110,
+  "location": "Durango, CO",
+  "country": null,
+  "description": "Acquired by Pluralsight in May 2019"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 34,
+ "fields": {
+  "company_name": "PostHog",
+  "logo": "company_logos/logo_e59baoP.png",
+  "link": "https://www.posthog.com",
+  "short_description": "Open source product analytics, self-hosted or in the cloud.",
+  "founded": "2020",
+  "team_size": 29,
+  "location": "San Francisco",
+  "country": null,
+  "description": "We’re working to increase the number of successful products in the world\n\nWe’re a small (but growing) team building an open source platform that empowers customers to create successful products.\n\nUntil now, tools for building products have been fragmented. Product analytics, heat maps, session recording and A/B testing all provide immense value, but existing tools weren’t natively built to work together.\n\nPostHog is different by offering these tools (and more) in a single platform that you can host yourself.\n\nWe started PostHog as part of Y Combinator's W20 cohort and had the most successful B2B software launch on HackerNews since 2012 - with a product that was just 4 weeks old.\n\nWe're proudly backed by some of the world's top investors and believe in product-led growth, where we build something awesome and let our product bring the users, rather than an outbound sales team and regular cold calls.\n\nWhat does this mean for you? We have a lot of capital, but we're a lean, strong team - so you've got the opportunity to have a huge impact.\n\nCheck out posthog.com/careers if you want to be part of this journey."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 35,
+ "fields": {
+  "company_name": "Tesorio",
+  "logo": "company_logos/logo_WOvOeq7.png",
+  "link": "https://www.tesorio.com",
+  "short_description": "Tesorio is the cash flow performance platform that helps finance…",
+  "founded": "2013",
+  "team_size": 37,
+  "location": "Burlingame, CA",
+  "country": null,
+  "description": "Tesorio is the world’s first and only cash flow performance platform. It empowers CFOs and finance teams to boost profits by using artificial intelligence to better manage, predict, and collect cash."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 36,
+ "fields": {
+  "company_name": "Confident Cannabis",
+  "logo": "company_logos/logo_PEnfb2l.png",
+  "link": "http://confidentcannabis.com",
+  "short_description": "Online B2B platform for the legal cannabis industry",
+  "founded": "2015",
+  "team_size": 23,
+  "location": "Palo Alto",
+  "country": null,
+  "description": "Confident Cannabis is the leading wholesale platform for the legal cannabis industry. The way to source B2B cannabis."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 37,
+ "fields": {
+  "company_name": "Quartzy",
+  "logo": "company_logos/logo_770y8UE.png",
+  "link": "https://www.quartzy.com",
+  "short_description": "Marketplace for life science supplies.",
+  "founded": null,
+  "team_size": 51,
+  "location": "Hayward, CA",
+  "country": null,
+  "description": "The world’s No. 1 lab management platform. We help scientists easily organize orders, manage inventory, and save money. Quartzy is free and always will be."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 38,
+ "fields": {
+  "company_name": "Giveffect",
+  "logo": "company_logos/logo_eOXGrNR.png",
+  "link": "http://giveffect.com",
+  "short_description": "Fundraising, Volunteer and Donor Management SaaS for nonprofits.",
+  "founded": "2014",
+  "team_size": null,
+  "location": "New York",
+  "country": null,
+  "description": "Giveffect provides a powerful all-in-one software platform exclusively for nonprofits. We offer fundraising, events, online donations, volunteer management, donor management, marketing, constituent relationship management software, and more. We are well positioned for rapid expansion in the coming years and have garnered top industry recognition for our platform."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 39,
+ "fields": {
+  "company_name": "Makrwatch",
+  "logo": "company_logos/logo_i7pEzPh.png",
+  "link": "https://www.makrwatch.com",
+  "short_description": "Scale new user acquisition with YouTube Creators",
+  "founded": "2017",
+  "team_size": 19,
+  "location": "New York",
+  "country": null,
+  "description": "Makrwatch helps D2C companies scale user acquisition with YouTube creators. Our clients see us as an alternative growth channel to Google/Facebook, by reaching their audience at a more efficient cost per acquisition and obtaining high quality customers that are more engaged. \n\nMakrwatch has been growing 100%+ year over year, currently processes 2M-5M in billings and helps creators in over 60+ countries. We are reaching 20 team members in 6+ countries, have been fully remote for the past years and aim to reach 20M in billings with 10,000 sponsored videos within the next 18 months. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 40,
+ "fields": {
+  "company_name": "TeamNote",
+  "logo": "company_logos/logo_sU7qCNn.png",
+  "link": "http://teamnoteapp.com",
+  "short_description": "Mobile Productivity(Slack for mobile workforces)",
+  "founded": "2014",
+  "team_size": 11,
+  "location": "Hong Kong, Hong Kong",
+  "country": null,
+  "description": "TeamNote as a company was conceived in 2014 after spinning off from AppTask, a Hong Kong mobile app development company specialized in enterprise mobile solution development. TeamNote’s mission is to help corporations unleash the productivity of their mobile workforce and maximize their working efficiency that mobile technology brings about.\n\nTeamNote as a product started off its research and development in 2013 and was officially launched to the market in the first quarter of 2014. The first customer in Hong Kong is Cheung Kong (Holdings) Ltd.\n\nIn January 2015 TeamNote joined the renowned Silicon Valley accelerator Y Combinator as incubatee."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 41,
+ "fields": {
+  "company_name": "UserGems",
+  "logo": "company_logos/logo_zCAnRhb.png",
+  "link": "https://www.usergems.com",
+  "short_description": "AI-powered sales solution based on your best customers",
+  "founded": "2015",
+  "team_size": 10,
+  "location": "Austria",
+  "country": null,
+  "description": "UserGems is an AI-driven prospecting solution for revenue teams to drive bigger pipelines, faster sales cycles, and larger deals.\n\nWhenever your customers change their jobs, UserGems automatically surfaces them as new leads to your sales reps directly in Salesforce. This enables reps to close more deals, faster.\n\nLeveraging machine learning, UserGems automatically identifies other prospects that match your best customers. That means you get a complete, up-to-date list of leads that match your ICP, persona and other key criteria so that reps spend less time sourcing leads, and more time selling."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 42,
+ "fields": {
+  "company_name": "Dyspatch",
+  "logo": "company_logos/logo_R1AmJLY.png",
+  "link": "https://www.dyspatch.io",
+  "short_description": "Two products to help everyone email better. Dyspatch.io - Email…",
+  "founded": null,
+  "team_size": 20,
+  "location": "Victoria, Canada",
+  "country": null,
+  "description": "Dyspatch by Sendwithus is a powerful communications platform built around advanced email content management. Our platform simplifies transactional email creation with a robust API, an easy to use editor, and built-in device testing, allowing for truly collaborative email strategy and execution.\n\nA centralized hub for email creation, approval, and publishing, our cloud-based solution empowers Product, Marketing, CRM, and Loyalty teams to efficiently build and test meaningful, dynamic communications without involving developers or deploying code. And with built-in support for 300+ locales, your teams can seamlessly manage localized content for global communications.\n\nEasily connect your cloud email provider or customize your integration to connect to your digital messaging service. Upload your existing templates in minutes. And from there, you’re well on your way to optimizing every email you send."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 43,
+ "fields": {
+  "company_name": "Povio",
+  "logo": "company_logos/logo_g7yB6NF.png",
+  "link": "http://povio.com",
+  "short_description": "A design and software development company. Used by 50+ YC companies.",
+  "founded": "2014",
+  "team_size": 200,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Povio is helping founders build their digital products.\n\nWith over 1000 successfully delivered projects, we have worked together with multinationals like Volkswagen, unicorns like Flexport and notable personalities like Serena Williams.\n\nPovio has an in-house team of over 200 developers, designers and project managers. Additionally the company is backed by a network of 300+ on-demand freelancers that have gone through our hiring process and can help scale the projects. We work on the entire product journey, from research and product design to development, maintenance and engineering team scaling.\n\nWith a rigorous hiring process, we assure the highest quality possible and strive to create long term relationships by partnering with our clients.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 44,
+ "fields": {
+  "company_name": "Taplytics",
+  "logo": "company_logos/logo_UKDWISl.png",
+  "link": "http://taplytics.com",
+  "short_description": "Optimize any platform and build better products for your customers!",
+  "founded": "2011",
+  "team_size": 55,
+  "location": "Toronto, Canada",
+  "country": null,
+  "description": "Welcome to the Modern Growth Marketing Stack.\n\nReimagine what it means to put customers first. Taplytics brings together digital customer journey design, optimization, and messaging—in a single platform—to help you deliver unique cross-channel experiences at scale.\n\nBorn at Y Combinator in Silicon Valley and now based in Toronto, with locations across North America, Taplytics helps our clients create, deliver and optimize incredible customer experiences with Customer Experience Automation solutions. Our platform is used by the world’s biggest brands, serving billions of customers and launching trillions of events. Growing our company from here is a complex and compelling challenge."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 45,
+ "fields": {
+  "company_name": "Ambition",
+  "logo": "",
+  "link": "https://ambition.com",
+  "short_description": "Coaching and gamification software for sales teams. ",
+  "founded": "2014",
+  "team_size": 55,
+  "location": "Chattanooga, TN",
+  "country": null,
+  "description": "We motivate employees to reach their potential, empower managers to be great coaches, and ultimately help sales teams hit number with great culture. We do this through an extensive suite of coaching and gamification tools, all powered by sales activity data."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 46,
+ "fields": {
+  "company_name": "Asseta",
+  "logo": "company_logos/logo_F2D6yQn.png",
+  "link": "http://www.asseta.com",
+  "short_description": "Marketplace for industrial spare parts and capital equipment.",
+  "founded": "2013",
+  "team_size": 7,
+  "location": "Newport Beach, CA",
+  "country": null,
+  "description": "Asseta is an online marketplace for used capital equipment and parts.  We utilize innovative software to bring buyers and sellers together so you can efficiently and transparently collaborate during equipment transactions.  Our web based platform ensures easy price discovery for interested parties and high touch customer service.\n\nToday over $100B is spent on used manufacturing equipment offline via brokers and middlemen. This huge but un-sexy market has yet to be transformed by technology. The incumbent firms rely on large sales forces and the fragmentation of the market to charge huge margins.   We believe in a better solution.\n\n\nFounded in 2013, Asseta is Y Combinator backed startup based in San Francisco.  For more information, visit www.asseta.com.\n\nCheck out our AngelLilst profile here:  https://angel.co/asseta?ref=startup_card"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 47,
+ "fields": {
+  "company_name": "Flightfox",
+  "logo": "",
+  "link": "http://flightfox.com",
+  "short_description": "We combine tech with human expertise to help your team travel better.",
+  "founded": "2012",
+  "team_size": 4,
+  "location": "Boulder, CO",
+  "country": null,
+  "description": "Flightfox is a complete enterprise travel platform. We apply technology to genuine human expertise to manage all of your travel, optimize your credit card strategy, maximize your loyalty benefits and make your travels better than ever. With the unique combination of technology and human expertise we also save you more money than any competitor. We have 100% access to deal inventory, so no more finding lower prices on Kayak than your corporate travel manager."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 48,
+ "fields": {
+  "company_name": "Materee",
+  "logo": "company_logos/logo_jSgqQQd.png",
+  "link": "https://materee.id",
+  "short_description": "E-commerce platform for construction materials in Indonesia",
+  "founded": "2022",
+  "team_size": 20,
+  "location": "Jakarta, Indonesia",
+  "country": null,
+  "description": "Materee is an e-commerce platform for construction materials in Indonesia. \n\nConstruction is one of the most important industries in Indonesia. Despite its importance, procuring raw materials for construction work involves many phone calls, text messages, as well as back and forth communications. Materee aims to transform and simplify construction material procurement process while assisting contractors to focus on the most important activity, completing their projects. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 49,
+ "fields": {
+  "company_name": "Dev Tools AI",
+  "logo": "company_logos/logo_fUThm12.png",
+  "link": "https://dev-tools.ai",
+  "short_description": "Co-Pilot for UI Testing",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "We help quickly write tests for web & mobile app. Our technology integrates visual AI with existing frameworks to make it simple to integrate with 2 lines of code. Additionally, we have IDE plugins to help improve the developers experience while writing tests. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 50,
+ "fields": {
+  "company_name": "Pivo Technology Inc",
+  "logo": "company_logos/logo_jLKAGIw.png",
+  "link": "http://www.pivo.africa",
+  "short_description": "Digital Bank for Freight Carriers in Africa.",
+  "founded": "2021",
+  "team_size": 11,
+  "location": "Lagos, Nigeria",
+  "country": null,
+  "description": "Africa has experienced robust macroeconomic growth over the last five years and was the second fastest growing region in 2019 with a GDP of $2.6T, a 3.7% increase on 2018. Nigeria makes up $0.5T, 50% of which comes from Small and Medium Enterprises (SMEs) – a huge number of these operate within large manufacturing supply chains.\n\nStarting with Freight Carriers Pivo makes financial services easily accessible for truck owners and truck drivers by providing a bank account, debit card and digital invoicing tools so they can get paid faster and avoid cash flow problems.\n\nThis will be further augmented by more fundamental financial products such as credit, transaction management, and expense management, to improve their cashflow. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 52,
+ "fields": {
+  "company_name": "Intuned",
+  "logo": "",
+  "link": "https://intunedhq.com",
+  "short_description": "Analytics for engineering managers",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Kirkland, WA",
+  "country": null,
+  "description": "Intuned is an analytics tool for engineering managers. We make it easy for them to understand what their team is working on, what's affecting their work, and how to improve their team’s performance.\n\nAs an engineering leader, *Intuned* will enable you to connect your data from your team’s systems (like GitHub, Jira, Linear, Notion, PagerDuty, and more) and will give you a powerful way to query it, explore it, build metrics, and actions on top of it.\n\nUsing this flexible approach, we help managers with many of their regular tasks and save them time, effort, and randomization. We also enable leaders to set and track measurable goals to drive change within their organizations."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 53,
+ "fields": {
+  "company_name": "Cone",
+  "logo": "company_logos/logo_VBAfMey.png",
+  "link": "https://www.getcone.io",
+  "short_description": "Modern finance and accounting platform for business",
+  "founded": "2022",
+  "team_size": 8,
+  "location": "Hyderabad, India",
+  "country": null,
+  "description": "Cone is a platform for all finance and accounting needs for SMBs. We help these businesses with bookkeeping, tax filing, compliance, vendor payments and financial reporting"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 54,
+ "fields": {
+  "company_name": "Axle",
+  "logo": "company_logos/logo_hBx1xsz.png",
+  "link": "https://axle.insure",
+  "short_description": "Plaid for Insurance",
+  "founded": "2022",
+  "team_size": 0,
+  "location": "New York",
+  "country": null,
+  "description": "Axle is the Plaid for Insurance. With Axle, companies can instantly verify insurance and monitor ongoing coverage, helping them create a frictionless experience for their customers and reduce operational risk through better-informed decisions."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 55,
+ "fields": {
+  "company_name": "Cambio",
+  "logo": "company_logos/logo_ISH0EQX.png",
+  "link": "https://www.cambio.ai/",
+  "short_description": "Decarbonizing commercial real estate at scale",
+  "founded": "2021",
+  "team_size": 3,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Cambio is software that helps commercial real estate companies and their corporate tenants decarbonize their buildings. The need to achieve net zero emissions in commercial real estate has never been greater as 60% of the Fortune 500 have issued climate pledges and 50 municipalities have mandated building emissions reductions. We help our customers measure the carbon footprint of their buildings and identify high-impact retrofits that drive both cost savings and decarbonization.\n\nWe are building the solution we wished we had while working as real estate investors at firms like KKR, Goldman Sachs, JPMorgan and Oxford Properties.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 56,
+ "fields": {
+  "company_name": "Kamion",
+  "logo": "company_logos/logo_61ruvw5.png",
+  "link": "https://www.kamion.co",
+  "short_description": "Uber for Trucks for Turkey",
+  "founded": "2020",
+  "team_size": 12,
+  "location": "Istanbul, Turkey",
+  "country": null,
+  "description": "Turkey is MENA’s largest economy, with ~850,000 independent truckers and a logistics market of 73 Billion USD. However, in its current state, freight forwarding for trucking relies on many phone calls, emails, and f2f conversations. Trucking is also fragmented, with SME fleets having ~95% market share. \n\nKamion is the Uber for Trucks for Turkey. We connect businesses that are looking for trucks, with trucks that are looking for loads. We also utilize technology to do more with fewer people and collect data.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 57,
+ "fields": {
+  "company_name": "Vizzly",
+  "logo": "company_logos/logo_RI5Uyrl.png",
+  "link": "https://vizzly.co/",
+  "short_description": "Embed dashboards your users can customize",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "London, United Kingdom",
+  "country": null,
+  "description": "Vizzly is an embeddable BI tool which companies can plug into their customer-facing apps. Instead of delivering a predefined dashboard to users, companies can offer a flexible dashboard builder for users to answer questions and track metrics specific to them."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 59,
+ "fields": {
+  "company_name": "Knowtex",
+  "logo": "",
+  "link": "http://www.knowtex.ai/",
+  "short_description": "Making doctors 2x more efficient with AI note-taking & charge capture",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "We’re on a mission to leverage AI and voice technology to solve inefficiencies and revenue leakage in our healthcare system. With the rise of EHRs, the manual documentation burden on doctors has never been higher, leading to burnout and fatigue and high attrition rates. Assigning the correct diagnosis and billing codes is crucial for proper reimbursement and patient care, but medical coding is becoming more and more complex each year with growing numbers of codes (over 145,000 now), and doctors are unsupported by current technology to keep up with its ever increasing requirements. $125 billion is left on the table each year by healthcare organizations due to improper documentation and coding. \n\nKnowtex creates visit notes with up-to-date and accurate reimbursement codes from doctor-patient conversations, allowing the doctor to focus on patient care and preventing revenue leakage for hospital systems through standardized, transparent, and accurate documentation. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 60,
+ "fields": {
+  "company_name": "MovingLake",
+  "logo": "company_logos/logo_eFGtsfi.png",
+  "link": "https://movinglake.com",
+  "short_description": "Realtime Data Connectors",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "Mexico City, Mexico",
+  "country": null,
+  "description": "MovingLake is Fivetran for event-driven architectures. Companies such as Casai use our product to obtain orders and price changes in real time."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 61,
+ "fields": {
+  "company_name": "Slingshot",
+  "logo": "company_logos/logo_GXAWPSb.png",
+  "link": "https://getslingshotbills.com",
+  "short_description": "Automatically monitor and reduce people's medical bills.",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Slingshot is software that automatically monitors and reduces people's medical bills up to 100%. We offer Slingshot as a free benefit to employers and charge a % of the savings we get. \n\nThe company is founded by Pranov Duggasani, a former Google and Microsoft AI engineer, and Zoe Holderness, a former Lyft and Tesla engineer. They started working on Slingshot after facing their own frustrations with inflated and erroneous medical bills with the goal to save patients more money with less work.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 62,
+ "fields": {
+  "company_name": "Monterey AI",
+  "logo": "company_logos/logo_sYOPdMB.png",
+  "link": "http://www.monterey.ai",
+  "short_description": "Copilot for product development",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Monterey AI accelerates product development for software companies from definition to delivery. We do this by automatically generating detailed and actionable product specs, including feature ideas, metrics, designs, and launch plans."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 63,
+ "fields": {
+  "company_name": "Entvin",
+  "logo": "company_logos/logo_NDN1QFo.png",
+  "link": "http://entvin.com?utm_source=yc",
+  "short_description": " Entvin is Retool for sales teams. ",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "San Francisco",
+  "country": null,
+  "description": "It's a no code platform which sales team use to build custom dashboards and automate tasks, such as paying out sales commissions correctly."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 64,
+ "fields": {
+  "company_name": "Oneleet",
+  "logo": "company_logos/logo_jBoDSfQ.png",
+  "link": "https://oneleet.com",
+  "short_description": "Pentesting that combines AI with human expertise",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "Amsterdam, Netherlands",
+  "country": null,
+  "description": ""
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 65,
+ "fields": {
+  "company_name": "Levers",
+  "logo": "company_logos/logo_JLTcnL4.png",
+  "link": "https://uselevers.com/",
+  "short_description": "Automated accounting & financial dashboard for startups in MENA",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "Jeddah, Saudi Arabia",
+  "country": null,
+  "description": "Levers runs accounting and metrics tracking for startups and SMEs in MENATP. Levers offloads the financial back office from our clients and delivers accurate monthly books, financial reports and business metrics. We streamline the traditional bookkeeping and accounting process by automating the most time-consuming and error-prone tasks, while unifying company data in a single platform via integrations. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 66,
+ "fields": {
+  "company_name": "Caddie",
+  "logo": "company_logos/logo_tEzw2aS.png",
+  "link": "http://www.trycaddie.com",
+  "short_description": "“Contact Sales” Flow for B2B Websites",
+  "founded": "2021",
+  "team_size": 2,
+  "location": "Toronto, Canada",
+  "country": null,
+  "description": "Caddie helps companies book more meetings from their website by making it easy for buyers to schedule a call. The personalized flow allows companies to capture leads, qualify, route and then schedule meeting with the right account executive (in real-time!). Using Caddie, teams like Clari and Demostack book over 50% more sales meetings."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 67,
+ "fields": {
+  "company_name": "UpLink",
+  "logo": "company_logos/logo_1lYyBkv.png",
+  "link": "https://www.uplinkapp.io",
+  "short_description": "Document Collection Software for Accountants, Auditors, and Lawyers",
+  "founded": "2021",
+  "team_size": 4,
+  "location": "Washington, DC",
+  "country": null,
+  "description": "UpLink's founding team worked as auditors and software engineers at PwC where they saw firsthand how difficult it was to collect thousands of documents from clients.\n\nAlex Maher and Alex Grant met working on PwC’s big data analytics platform, scaling it from 0 to 20k users globally. Brady and Nick met while studying CS at a top 5 public university, but still insist they were self-taught. They were, by far, the top developers on Alex Maher’s team before starting UpLink. Together they ran Dycom's field systems segment, supporting 15k users.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 68,
+ "fields": {
+  "company_name": "SideGuide",
+  "logo": "company_logos/logo_Cjg5IKc.png",
+  "link": "https://www.sideguide.dev/",
+  "short_description": "Helping API companies accelerate adoption with live code sandboxes",
+  "founded": "2022",
+  "team_size": 4,
+  "location": "Boston",
+  "country": null,
+  "description": "SideGuide helps companies accelerate developer adoption with live code sandboxes. Companies like Hyperbeam use SideGuide to show developers how their API works without friction. We give developers an easy way to test, understand, and evaluate products while giving API & SDK companies the insights they need to close sales and improve the implementation process.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 69,
+ "fields": {
+  "company_name": "Momentu",
+  "logo": "company_logos/logo_vYY1C5w.png",
+  "link": "http://www.momentu.co",
+  "short_description": "Corporate mental health platform for LATAM",
+  "founded": "2021",
+  "team_size": 25,
+  "location": "Cali, Colombia",
+  "country": null,
+  "description": "\nMomentu is a corporate mental health platform for Latin America. We address mental health challenges in employees through an emotional test, where we understand their needs and provide support through digital content, therapy and coaching sessions.\n\nWe are already working with top companies in LATAM such as Fintual, La Haus, Clara, Grupo Ecopetrol, Axa Colpatria. We served thousands of employees in LATAM in over 11 countries."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 70,
+ "fields": {
+  "company_name": "Drip",
+  "logo": "",
+  "link": "https://dripapp.com.br/",
+  "short_description": "BNPL for Brazil",
+  "founded": "2021",
+  "team_size": 15,
+  "location": "São Paulo, Brazil",
+  "country": null,
+  "description": "Drip is BNPL for Brazil, but while Affirm is creating the habit in the US, Brazilians already split in installments 30% of their retail payments. With Drip, they now split payments without eating into their credit card limits and earn better rewards. \n\nCustomers spread their payments in 3 interest-free monthly installments, through an easy and fast UX, while earning up to 10% cashback."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 71,
+ "fields": {
+  "company_name": "Invofox",
+  "logo": "company_logos/logo_bVl2qj2.png",
+  "link": "https://invofox.ai/",
+  "short_description": "Automatic invoice data extraction for software companies",
+  "founded": "2015",
+  "team_size": 12,
+  "location": "Madrid, Spain",
+  "country": null,
+  "description": "Invofox helps software companies automatically extract data from invoices, so they can fully automate processes for their customers, such as payments or accounting, without anyone having to review the data."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 72,
+ "fields": {
+  "company_name": "Excheqr",
+  "logo": "company_logos/logo_If94gOY.png",
+  "link": "https://www.excheqr.xyz",
+  "short_description": "All-in-one platform to manage your crypto treasury",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "",
+  "country": null,
+  "description": ""
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 73,
+ "fields": {
+  "company_name": "KemNet",
+  "logo": "company_logos/logo_DgTh8Km.png",
+  "link": "https://kemnet.ca/",
+  "short_description": "KemNet supplies reformulated drugs for specific groups of patients.",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Edmonton, Canada",
+  "country": null,
+  "description": "KemNet supplies pharmacies with premium reformulations of popular drugs that are more useful for specific groups of patients. For example, more than 30 pharmacies rely on KemNet to supply reformulated products for erectile dysfunction that work up to 8 times faster than alternatives. In addition to sexual function, products reformulated for novel drug delivery and supplied on KemNet include medications for hair growth, pain, weight loss and women's health.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 74,
+ "fields": {
+  "company_name": "Patika",
+  "logo": "company_logos/logo_bv3o5ks.png",
+  "link": "https://www.patika.africa",
+  "short_description": "Simple Receivable Automation & Payments for Africa’s SMBs",
+  "founded": "2021",
+  "team_size": 3,
+  "location": "Nairobi, Kenya",
+  "country": null,
+  "description": "Patika helps small businesses in Africa to collect the 35% of their revenue that is not paid upfront. Typically, small businesses use pen and paper to track customer debts and phone calls to collect, but now they can use our smartphone application to automate this process. \n\nOur businesses, who used to lose 9% of their sales to non payment and had 16% paid late, now not only collect these customer debts 3x faster but have also getting paid 25% more.\n\nWe started charging our customers 6 weeks ago and already have 350 of them paying us $3 a month. We have 1,200 monthly active businesses, growing 40% MoM and we aim to reach 50M small businesses in Africa - a $5B+ market.\n\nSidney and Phelix, who met 10 years ago at a leadership program by Mastercard and Equity Bank, are technical founders with 5+ years experience working together to build payments platforms that processed $10M monthly GTV across Kenya, Uganda & Nigeria."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 75,
+ "fields": {
+  "company_name": "Relate",
+  "logo": "company_logos/logo_u9aEeo8.png",
+  "link": "https://www.relate.so/",
+  "short_description": "Simple sales CRM for startups and SMBs.",
+  "founded": "2019",
+  "team_size": 6,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Relate is a simple, collaborative sales CRM for startups and SMBs."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 76,
+ "fields": {
+  "company_name": "Lamin Labs",
+  "logo": "company_logos/logo_h2Anivw.png",
+  "link": "https://lamin.ai",
+  "short_description": "Data infrastructure for biology",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Munich, Germany",
+  "country": null,
+  "description": "In recent years, the growing complexity of R&D data has become so prohibitive that it often blocks scientific progress.\n\nWe make it easy to build data platforms at all scales: We do what git and GitHub did for code for R&D data."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 77,
+ "fields": {
+  "company_name": "Hiresure.ai",
+  "logo": "company_logos/logo_ahaw0ab.png",
+  "link": "https://www.hiresure.ai/",
+  "short_description": "Pave for India to Benchmark Compensation & Predict Offer Declines",
+  "founded": "2020",
+  "team_size": 35,
+  "location": "Bengaluru, India",
+  "country": null,
+  "description": "With over 500M white-collared job offers rolled out annually, companies find it very difficult to be certain about what to offer. Companies rely on old compensation survey data, which are updated only once every year.\n\nThe salary expectations of candidates in the market change significantly on a quarterly basis (~7% statistically) in the startup ecosystem.\n\nThis results in more than 50% of qualified/selected candidates not joining the company due to expectation mismatch.\n\nHireSure.ai is an API-driven compensation benchmarking tool. We integrate with your existing HR/payroll systems, removing the need for manual data entry, and also getting updated in real-time.\n\nHireSure.ai provides the most accurate real-time compensation benchmarking data which helps you make the right offer to the candidate. The platform allows you to communicate your offer to the candidate in the most presentable and engaging manner. It also uses behavior signals to predict a potential dropout in order to make course-correction to retain them.\n\n\nThis has the following advantages :\n- All the process of compensation data submission is automatic and needs no manual intervention\n- Since the job market is dynamic in nature, the offers made on HireSure.ai’s real-time benchmarks would be the most efficient\n- The presentation of the offer to the candidate makes it look more appealing and explanatory to the candidate\n- Predicting a potential dropout help companies put focused efforts into retaining the candidate"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 78,
+ "fields": {
+  "company_name": "AiPrise",
+  "logo": "company_logos/logo_ugaxWg6.png",
+  "link": "https://aiprise.com/",
+  "short_description": "Identity Verification & KYC Orchestration Platform ",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Santa Clara, CA",
+  "country": null,
+  "description": "AiPrise allows fintech companies to integrate with multiple identity vendors through a single platform. Companies like Amal Invest use us to integrate with local vendors and comply with regulations in over 100 countries.\n\n\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 79,
+ "fields": {
+  "company_name": "Allero",
+  "logo": "company_logos/logo_ERkcBmV.png",
+  "link": "https://allero.io",
+  "short_description": "With Allero, only compliant code makes it to production.",
+  "founded": "2022",
+  "team_size": 4,
+  "location": "Tel Aviv-Yafo, Israel",
+  "country": null,
+  "description": "Our mission is to empower engineers to gain trust in their production code.\nWe ensure only compliant code makes it to production, by providing a CLI tool that scans your CI/CD pipelines and verifies that security, code quality, and compliance checks are in place.\n\nAs engineers who have worked in multiple companies across the industry, we know the value of good code delivery processes. That’s why we set out on our mission to address significant challenges in the CI/CD world."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 80,
+ "fields": {
+  "company_name": "Quindar",
+  "logo": "company_logos/logo_yipTZGX.png",
+  "link": "https://www.quindar.space",
+  "short_description": "Automated spacecraft test and operations.",
+  "founded": "2022",
+  "team_size": 6,
+  "location": "Denver, CO",
+  "country": null,
+  "description": "Quindar is a web app used by satellite owners to analyze, test and operate their constellation. For example, Airbus could use Quindar to operate their satellite fleet with minimal human intervention.\n  \nWe’re six former OneWeb engineers who helped build the software platform that currently operates the second largest satellite constellation in the world.\n \nThe space industry is shifting from companies launching a handful of satellites over a decade, to launching hundreds of satellites EACH in just a few years. Our SaaS platform automates mission management and for a single engineer to operate hundreds of satellites instead of the traditional model of many engineers operating a single satellite."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 81,
+ "fields": {
+  "company_name": "Unthread",
+  "logo": "company_logos/logo_z5MdCBq.png",
+  "link": "https://unthread.io",
+  "short_description": "Slack inbox for support teams ",
+  "founded": "2021",
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "Unthread is a Slack inbox for customer support teams. >80% of SaaS companies use Slack Connect for customer support, and we help them assign, prioritize, and escalate inbound requests entirely within Slack.\n\nMost people are inundated with Slack notifications, and messages often go without a defined owner. Unthread lets you set responders, expected response time, and escalation policies per customer to be sure the right people are notified and issues are always resolved quickly."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 82,
+ "fields": {
+  "company_name": "Kombo",
+  "logo": "company_logos/logo_rF2EvR3.png",
+  "link": "https://kombo.dev",
+  "short_description": "One API for connecting enterprise tools.",
+  "founded": "2022",
+  "team_size": 4,
+  "location": "Berlin, Germany",
+  "country": null,
+  "description": "Kombo makes it easy for European software companies to offer integrations with enterprise tools such as Workday, SAP, or NetSuite. For example, a procurement company could use our unified API to integrate with their customer's ERP system."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 83,
+ "fields": {
+  "company_name": "Anchor",
+  "logo": "company_logos/logo_xpK5hAw.png",
+  "link": "https://getanchor.co/",
+  "short_description": "Banking-as-a-service platform for Africa",
+  "founded": "2022",
+  "team_size": 8,
+  "location": "Lagos, Nigeria",
+  "country": null,
+  "description": "Anchor provides APIs, dashboard and tools that help developers easily embed and build banking products. This includes APIs for creating bank accounts, funds transfers, savings products, issuing cards and offering loans.\n\nWe also provide regulatory coverage and continuous compliance support to our partners."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 84,
+ "fields": {
+  "company_name": "Plutto",
+  "logo": "",
+  "link": "https://getplutto.com/",
+  "short_description": "Verify and validate business customers in minutes for LatAm.",
+  "founded": "2022",
+  "team_size": 5,
+  "location": "Santiago, Chile",
+  "country": null,
+  "description": "Plutto gathers all the information and documents needed to verify and identify any business in LatAm. We process this information and provide insights to your on-boarding or compliance teams so they can make better decisions. This increases on-boarding speed from weeks to minutes and automates highly manual processes such as requesting and reading documents."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 85,
+ "fields": {
+  "company_name": "Feather",
+  "logo": "company_logos/logo_Pu8jOnw.png",
+  "link": "https://feather.credit",
+  "short_description": "Modern 401(k) for startups",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Seattle, WA",
+  "country": null,
+  "description": "Feather helps startups offer 401(k) to founders and early team, while saving them time and money. We make getting 401(k) for your company as easy as signing up for a credit card - in under 20 minutes! Feather provides you with cost-effective plan designs, integrates with your payroll provider, and provides premium onboarding.\n\nFeather is committed to building financial tools and resources for a healthier future of American economy through workplace financial benefits"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 86,
+ "fields": {
+  "company_name": "Grai",
+  "logo": "company_logos/logo_U0wQ2a3.png",
+  "link": "https://www.grai.io",
+  "short_description": "Open source version control for metadata",
+  "founded": "2021",
+  "team_size": 1,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Grai is open source version control for metadata. We can determine how database changes will affect deployed machine learning models, apis, and dashboards because we understand how data relates across systems which don’t otherwise talk to each other."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 87,
+ "fields": {
+  "company_name": "Fini",
+  "logo": "company_logos/logo_cL9E1k3.png",
+  "link": "https://www.usefini.com",
+  "short_description": "Automate high volume customer service with AI",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Amsterdam, Netherlands",
+  "country": null,
+  "description": "Fini helps companies collect, categorize and resolve customer issues using contextual information and customer enrichment.\n\nWe do this by connecting with our customers inbound systems (eg: Zendesk, Salesforce, ServiceNow, Intercom, email, custom API, etc.), and running ML models in order to analyze and route issues to the best resolution.\n\nWe are building for tech companies around the world that want to bring their customers a magical and proactive support experience."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 88,
+ "fields": {
+  "company_name": "Coris",
+  "logo": "",
+  "link": "https://coris.ai/",
+  "short_description": "Risk API for Fintechs that Underwrite SMBs",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Coris is a Risk API for Fintechs that underwrite SMBs. We built the risk systems at eBay, PayPal, WePay, and Google. Leveraging our expertise, we were able to build the product in less than 3 months, launch it within few weeks, and already have live pilots with companies such as Parker and Wave Accounting"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 89,
+ "fields": {
+  "company_name": "Peoplebox",
+  "logo": "",
+  "link": "https://www.peoplebox.ai",
+  "short_description": "OKR and Strategy Execution Platform for Enterprises",
+  "founded": "2018",
+  "team_size": 20,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Peoplebox is an OKR platform that makes it easy for large companies to align their teams and execute faster. \n\nEnterprises like Disney and Razorpay use Peoplebox to track their strategic goals, initiatives and what’s blocking their progress in one single dashboard.\n\nIt integrates with all work tools (SQL, Jira, Hubspot, Asana etc) to make it magically easy to track and review cross-functional goals, including within business review meetings. \n\nOur vision at Peoplebox is to become the Operating System for strategy execution to help companies align and achieve moonshot goals."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 90,
+ "fields": {
+  "company_name": "Thera",
+  "logo": "company_logos/logo_Js8ohV8.png",
+  "link": "https://www.getthera.com",
+  "short_description": "Payroll for remote teams",
+  "founded": null,
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "Thera is building an All-In-One HR platform for remote teams. Traditional payroll providers fail to help companies with the compliance issues that come with managing a multi-state team. With Thera, our compliance engine helps you stay fully compliant in all fifty states."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 91,
+ "fields": {
+  "company_name": "Sytex",
+  "logo": "company_logos/logo_zKrAib9.png",
+  "link": "https://www.sytex.io",
+  "short_description": "Project management platform for Field Infrastructure.",
+  "founded": "2019",
+  "team_size": 22,
+  "location": "Córdoba, Argentina",
+  "country": null,
+  "description": "Sytex is a project management platform for Field Infrastructure, starting with Telecom.\nFor example, companies like Telefonica and Claro use Sytex to build and maintain their networks."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 92,
+ "fields": {
+  "company_name": "NewsCatcher",
+  "logo": "",
+  "link": "https://newscatcherapi.com/",
+  "short_description": "News API for risk and data teams",
+  "founded": "2021",
+  "team_size": 6,
+  "location": "Paris, France",
+  "country": null,
+  "description": "We help data & risk enterprise teams get instant access to news and events from over 40,000 news sources. \n\nOur main product is a News API to search through an indexed database of online-published news articles in near real-time.\n\n“Humans reading the news” is not a scalable way for enterprises to analyse news, and it’s expensive. We help enterprises shift the news consumption from just reading to integrating actionable signals into their internal workflow. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 93,
+ "fields": {
+  "company_name": "Typewise",
+  "logo": "company_logos/logo_Gqd0lPZ.png",
+  "link": "https://typewise.app",
+  "short_description": "Boosting customer service and sales productivity by 2-3x.",
+  "founded": "2020",
+  "team_size": 12,
+  "location": "Zürich, Switzerland",
+  "country": null,
+  "description": "Typewise develops text prediction software for customer service and sales teams. Our enterprise clients such as DPD (a Fortune 500 logistics company) use Typewise to communicate with their customers faster and more effectively."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 94,
+ "fields": {
+  "company_name": "Tersho",
+  "logo": "company_logos/logo_WOgNOc4.png",
+  "link": "https://www.tersho.com/",
+  "short_description": "No-code BI tool that lives in spreadsheets",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Jaipur, India",
+  "country": null,
+  "description": "Tersho is a no-code BI tool that lives in the spreadsheet. Instead of writing SQL, teams connect their data sources to Tersho and use our no-code interface to build dashboards right there in the spreadsheets they use."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 95,
+ "fields": {
+  "company_name": "Ajourney",
+  "logo": "company_logos/logo_P5tCfnR.png",
+  "link": "https://ajourney.io",
+  "short_description": "Gusto for South East Asia",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "Singapore, Singapore",
+  "country": null,
+  "description": "Ajourney is building Gusto for South East Asia. \n\nWith Ajourney, instead of using spreadsheets and multiple portals, business owners can run payroll with just one click."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 96,
+ "fields": {
+  "company_name": "Slauth.io",
+  "logo": "company_logos/logo_4vKeGKY.png",
+  "link": "https://slauth.io/",
+  "short_description": "Access management platform to secure the cloud infrastructure",
+  "founded": "2022",
+  "team_size": 6,
+  "location": "Tel Aviv-Yafo, Israel",
+  "country": null,
+  "description": "Slauth.io is simplifies and secures access management for the cloud infrastructure. \n\n1)Visualise all human+machine identities, policies and resources\n2)Suggestions to resolve security liabilities, such as disabled Multi-Factor Authentication, Inactive Identities, or over-privileged identity\n3) Remediation tools in order to quickly resolve low-hanging fruit\n\nHave a look at our demo at https://www.slauth.io/"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 97,
+ "fields": {
+  "company_name": "Metafi",
+  "logo": "company_logos/logo_5Oaqi6E.png",
+  "link": "https://www.usemeta.fi/",
+  "short_description": "Blockchain Infrastructure for Web3 Games",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Metafi is building Blockchain Infrastructure for Web3 games. With our SDK, game developers can set up an embedded wallet within their game, broadcast transactions to multiple chains, and listen to on-chain events that affect game state."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 98,
+ "fields": {
+  "company_name": "Aragorn AI",
+  "logo": "company_logos/logo_2vVAxnd.png",
+  "link": "https://www.aragorn.ai",
+  "short_description": "Single software that syncs millions of HR data with SaaS vendors",
+  "founded": "2022",
+  "team_size": 4,
+  "location": "Plano, TX",
+  "country": null,
+  "description": "Aragorn AI, Inc helps enterprises sync their HR data with their vendor systems seamlessly.\n\nEnterprises with large employee sizes generally have between 4 and 12+ full-time employees managing the process of synching HR data with vendors. This is at least $400k of cost and over 8k hours per year that could be dedicate to other value-add initiatives developing the employees and growing the organization."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 99,
+ "fields": {
+  "company_name": "Juicebox",
+  "logo": "company_logos/logo_iKYnACx.png",
+  "link": "https://www.juicebox.work/",
+  "short_description": "Zero-commission marketplace for vetted independent talent",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "Juicebox is a zero-commission marketplace to hire independent tech talent. Companies get subscription-based access to vetted talent; independents get the opportunity to grow their business without relying on an agency."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 100,
+ "fields": {
+  "company_name": "Windmill",
+  "logo": "company_logos/logo_7Q04LUa.png",
+  "link": "https://windmill.dev",
+  "short_description": "Open-source platform to turn scripts into internal apps & workflows",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "Paris, France",
+  "country": null,
+  "description": "Windmill is an open-source developer platform to quickly build production-grade multi-step internal apps, workflows and integrations from minimal Python and Typescript scripts. \n\nOpen-source alternative to Airplane and Pipedream. Simplified temporal with automatic app generation. Usable as a self-hosted AWS Lambda. \n\nSync your scripts from your github repo or write them directly on Windmill, have them be converted to apps and no-code modules automatically. Use those apps as standalone or, build powerful flows using either those scripts or scripts made by the community on hub.windmill.dev. The experience is similar to no-code tools except that at any point, any module can have its code inspected and tweaked. Leveraging the open-source community, we will build an exhaustive library of scripts for all apis and generic tasks.\n\nYou may also wrap Windmill with your own frontend to provide automation as a feature on top of your own SaaS. \n\nFocus on your business logic for all kind of flows, Windmill is the platform to build, share and run them."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 101,
+ "fields": {
+  "company_name": "Raven",
+  "logo": "company_logos/logo_kHnbGjk.png",
+  "link": "https://raven.dev",
+  "short_description": "API to manage notifications across SMS, Email, Push, Slack, WA & more ",
+  "founded": "2021",
+  "team_size": 4,
+  "location": "Bengaluru, India",
+  "country": null,
+  "description": "Raven gives businesses a central platform to manage product notifications across SMS, Email, Push, WhatsApp, Slack & more. We do this by connecting 40+ providers like Twilio, SendGrid, Firebase with a single API and giving a central dashboard on top to design & monitor all notifications."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 102,
+ "fields": {
+  "company_name": "Deekard",
+  "logo": "company_logos/logo_XWvsTy9.png",
+  "link": "https://www.deekard.com",
+  "short_description": "Grammarly for Data",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Berlin, Germany",
+  "country": null,
+  "description": "Deekard allows data teams to identify and resolve data quality issues in seconds. Bad data quality leads to wasted resources from failing database queries, poor recommendations of machine learning models, and wrong business decisions derived from incorrect dashboards. Deekard’s immediate data quality feedback saves data teams time and resources, so that they can focus on building products that customers love. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 103,
+ "fields": {
+  "company_name": "Sunlight",
+  "logo": "company_logos/logo_bbq6AQJ.png",
+  "link": "https://www.sunlightapi.com/",
+  "short_description": "The Universal Card-On-File API",
+  "founded": "2021",
+  "team_size": 5,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Sunlight is an API to change the card-on-file with apps and subscription services. Fintechs use Sunlight to automatically make their cards top-of-wallet as soon as they're issued. \n\nMerchants, service providers and subscriptions-based businesses everywhere now offer their customers the ability to save a debit/credit card on file, so they can pay their bills on time, buy in one click, or earn rewards. In 2021, 79% of consumers worldwide reported already having at least one payment card saved with a service or being open to doing so. \n\nIn recent years, card-issuing as-a-service has become mainstream: any company can now start their own card business in a matter of weeks. Last year, the number of new payment cards issued was at an all-time high. For users, however, switching banks or opening a new card now comes with an additional hurdle: they need to update their payment info across the internet. On the other side of that equation, card issuers have no visibility or control over the card-on-file updating process, and as a result struggle to get their new users to switch their spend from their old card to the new one, leading to low conversion rates and missed revenue opportunities.\n\nUntil Sunlight.\n\nWith our universal get-your-card-on-file API, FIs can now offer their users, at any point in their journey, a quick and easy way to update their debit/credit card info everywhere they shop or pay online, without ever leaving their Apps.\n\nThe Sunlight API works on every platform that has a card-on-file option (think Uber, Amazon, Netflix, DoorDash, Starbucks and so many more…), is as seamless as a Plaid connection, and always gets the card number and CVV code right on the first try!"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 104,
+ "fields": {
+  "company_name": "Delegasi",
+  "logo": "company_logos/logo_ehXIxCT.png",
+  "link": "https://delegasi.co/",
+  "short_description": "Automated accounting service for small businesses in Indonesia",
+  "founded": "2022",
+  "team_size": 8,
+  "location": "Bandung, Indonesia",
+  "country": null,
+  "description": "Financial statements are definitely a hassle for business owners. Many accounting software are available, yet not everyone has the capability to operate them.\n\nAmidst this problem, Delegasi dares to provide a solution. As the first virtual financial manager in Indonesia, we assist SMB owners in putting together their financial statements and business analysis. By simply uploading receipts and bank statements, owners will receive their financial statements and business analyses with guaranteed accuracy, allowing them to make well informed financial decisions."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 105,
+ "fields": {
+  "company_name": "Signatur Biosciences",
+  "logo": "company_logos/logo_XS7Ee7o.png",
+  "link": "https://www.signatur.bio/",
+  "short_description": "Simple blood tests for complex diseases.",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Right now, complex diseases like bipolar disorder don’t have blood tests because they involve multiple biomarkers, and existing PCR equipment can only test for one at a time.\nOur technology allows the existing PCR machines that every lab already has to test for 50 biomarkers all at once. Using this platform technology, we can make the first widely available tests for many important conditions like bipolar disorder, endometriosis, and opioid addiction."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 106,
+ "fields": {
+  "company_name": "EthosX",
+  "logo": "company_logos/logo_vFWSIxm.png",
+  "link": "https://www.ethosx.xyz/",
+  "short_description": "The protocol for derivatives on blockchains",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Bengaluru, India",
+  "country": null,
+  "description": "EthosX is a decentralized finance platform creating end-to-end financial derivatives on blockchains. No centralized exchanges, clearinghouses, depositories, clearing banks, CSD participants etc. required.\n\nWe are starting with cryptocurrency options first, with the intention to move towards other crypto derivatives and traditional finance derivatives eventually.\n\nFor example, one can buy a bitcoin hedging token directly from EthosX without involving any exchange or counterparty and earn profits when the bitcoin price is falling (similar to a put option). It is perpetual and is completely on-chain, end-to-end. It is held as a token in wallets and can be sold/transferred to anyone at any time.\n\nAt institutional level, using EthosX’s options infrastructure two hedge funds can trade high-value on-chain options with each other directly without involving any banks or brokers with zero counterparty risk and zero settlement risk.\n\nWe are also providing derivatives infrastructure to other crypto companies who want to use these products as a part of a larger package to their customers.\n\nGlobal derivatives ecosystem is broken. Derivatives trading in traditional finance has way too many gatekeepers and intermediaries. Crypto was supposed to be free of these issues and a solution to all of this, but it is itself getting more and more centralized with disastrous consequences.\n\nWe at EthosX intend to pick the best of both worlds and change the way retail and institutional financial derivatives are traded world over."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 107,
+ "fields": {
+  "company_name": "Boostly",
+  "logo": "company_logos/logo_quA03gK.png",
+  "link": "https://boostly.com",
+  "short_description": "The SMS marketing platform for restaurants",
+  "founded": "2017",
+  "team_size": 13,
+  "location": "Orem, UT",
+  "country": null,
+  "description": "Boostly provides text marketing and feedback software to restaurants. We work seamlessly with the restaurant's point of sale and online ordering systems, provide a completely automated experience, and generate a 10-15X return on their marketing spend. When customers are eating their meal, we collect feedback on the experience, enabling the restaurant to resolve issues in real-time or generate reviews."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 108,
+ "fields": {
+  "company_name": "Pilot AI",
+  "logo": "company_logos/logo_G47EFB5.png",
+  "link": "https://getpilot.ai",
+  "short_description": "Turns your sales calls into CRM data, automatically.",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Pilot AI is a tool for sales representatives which automatically turns call recordings into structured information that directly updates the CRM. Instead of spending hours going over call recordings to pull out key information to populate the CRM, sales representatives can focus their time doing what they do best and sales leaders can rest assured that pipeline data is up to date."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 109,
+ "fields": {
+  "company_name": "BlueHill Payments",
+  "logo": "company_logos/logo_LFIejLT.png",
+  "link": "https://www.bluehillpayments.com/",
+  "short_description": "Expanding Payment Flexibility and Lowering Rates for Merchants",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "BlueHill is like a marketplace for payment processors. Our product is an intelligent gateway routing platform that automatically reduces transaction fees on everyday credit card transactions by routing transactions to different gateways based on a variety of parameters. This allows merchants to get access to a wider variety of alternative payment methods while lowering their fees, improving transaction clearance rate all while still getting lower processing rates. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 110,
+ "fields": {
+  "company_name": "trebu",
+  "logo": "company_logos/logo_GBtSFhI.png",
+  "link": "https://www.trebu.io/",
+  "short_description": "Trebu is a data sharing network to fight fraud and default in LATAM",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "Mexico City, Mexico",
+  "country": null,
+  "description": "Trebu is a data sharing network to help lending companies in LATAM fight fraud and default. We stop consumers from going company to company and not paying them. Our customers can access real-time information and use it to strengthen their credit models, while keeping their data.\n\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 111,
+ "fields": {
+  "company_name": "ilumadata",
+  "logo": "company_logos/logo_x1i9ecJ.png",
+  "link": "https://www.ilumadata.io/",
+  "short_description": "Confidently ship analytics code faster with fewer errors",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "London, United Kingdom",
+  "country": null,
+  "description": "We’re retool for data pipelines. We allow less-technical people to edit data pipelines, with easy to use tools."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 112,
+ "fields": {
+  "company_name": "Openline",
+  "logo": "company_logos/logo_dbEWNu4.png",
+  "link": "https://openline.ai",
+  "short_description": "Mission Control for the modern contact center",
+  "founded": "2021",
+  "team_size": 7,
+  "location": "London, United Kingdom",
+  "country": null,
+  "description": "The average Enterprise manages 15+ different customer communications tools.  Openline brings together all your communications applications, infrastructure, and third party services to secure your systems, reduce downtime, and ensure customers receive the best possible experience."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 113,
+ "fields": {
+  "company_name": "TrueBiz",
+  "logo": "company_logos/logo_rnLFobn.png",
+  "link": "https://truebiz.io/",
+  "short_description": "Instant Background Checks for Businesses",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "TrueBiz is reinventing corporate due diligence. They automate the processing company documents like Articles of Incorporation, and combine this with key signals about the business. \n\nThe process takes seconds – not days, so Financial Institutions can efficiently meet Know Your Business requirements and onboard new businesses faster."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 114,
+ "fields": {
+  "company_name": "Cerrion",
+  "logo": "company_logos/logo_Z8bAXIm.png",
+  "link": "https://www.cerrion.com/",
+  "short_description": "Computer Vision to automatically detect problems on production lines",
+  "founded": "2021",
+  "team_size": 4,
+  "location": "Zürich, Switzerland",
+  "country": null,
+  "description": "Cerrion helps manufacturers automatically detect problems on their production lines using Computer Vision. Our plug & play AI  learns how a manufacturing process looks like when things are going well and can automatically detect and track problems in real-time.\n\nFor example, one of our customers, a Pepsi supplier producing 500 bottles per minute now automatically detects when a fallen or broken bottle is blocking their production line. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 115,
+ "fields": {
+  "company_name": "Blitz",
+  "logo": "company_logos/logo_Zj7XpxF.png",
+  "link": "https://www.blitznocode.com/",
+  "short_description": "Build collaborative apps with zero code",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Paris, France",
+  "country": null,
+  "description": "Blitz is a no-code platform to build collaborative apps. With Blitz, companies with complex operations can create apps and workflows to automate manual processes - such as onboarding a new partner or managing a catalog of products. \n\nNon-technical users don't have to use spreadsheets anymore or depend on developers for internal tools. With Blitz, they can create interfaces and workflows on top of a flexible database, and easily scale their operations. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 116,
+ "fields": {
+  "company_name": "erad",
+  "logo": "company_logos/logo_E9YLhjO.png",
+  "link": "https://erad.co/",
+  "short_description": "Non-dilutive funding and payments in the Middle East",
+  "founded": "2022",
+  "team_size": 5,
+  "location": "Riyadh, Saudi Arabia",
+  "country": null,
+  "description": "erad provides startups in the Middle East with non-dilutive growth capital. Connect your sales, marketing and banking data and receive an offer within 48 hours. Get access to key insights and analysis about your business."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 117,
+ "fields": {
+  "company_name": "Ruleset",
+  "logo": "company_logos/logo_8c53lCs.png",
+  "link": "https://ruleset.ai",
+  "short_description": "The SaaS Decision Engine for Lenders",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Sunnyvale, CA",
+  "country": null,
+  "description": "Ruleset is the SaaS decision engine for lending. We allow lenders to set rules for who can get a loan, without writing a single line of code."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 118,
+ "fields": {
+  "company_name": "Pasito",
+  "logo": "company_logos/logo_vno2sTk.png",
+  "link": "https://joinpasito.com/",
+  "short_description": "Saving companies money on healthcare and payroll ",
+  "founded": "2021",
+  "team_size": 3,
+  "location": "New York",
+  "country": null,
+  "description": "Pasito saves companies money on healthcare and payroll by guiding their employees to make better and more efficient health and retirement benefits decisions. We integrate payroll, financial, and claims data to optimize benefits coverage and utilization. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 119,
+ "fields": {
+  "company_name": "Bunting Labs",
+  "logo": "company_logos/logo_dIiSgze.png",
+  "link": "https://buntinglabs.com",
+  "short_description": "No-code geospatial data pipelines",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Bunting helps developers import, store, and analyze GIS data. We replace months of writing Python scripts with our drag-and-drop data importer."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 120,
+ "fields": {
+  "company_name": "Devyce",
+  "logo": "",
+  "link": "https://devyce.com",
+  "short_description": "The global mobile network for business. ",
+  "founded": "2020",
+  "team_size": 6,
+  "location": "London, United Kingdom",
+  "country": null,
+  "description": "Devyce is building the global mobile network for business. Right now, we give your employees a business phone number in an app, on their personal phone, instantly, alongside a portal for analytics, management and integrations.\n\nNick has a background in recruiting and real estate and understands the pain points these industries face with hybrid working, while Ed has a solid tech background including a CS degree from Cambridge. Because of our relationship with a mobile network operator, we have the unfair advantage that we will actually become a mobile network, unlike other SaaS VoIP providers.\n\nhttps://devyce.com/"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 121,
+ "fields": {
+  "company_name": "Tailor",
+  "logo": "company_logos/logo_bJYEBtp.png",
+  "link": "https://tailor.tech/",
+  "short_description": "Headless ERP for enterprises starting in Japan",
+  "founded": "2021",
+  "team_size": 6,
+  "location": "Tokyo, Japan",
+  "country": null,
+  "description": "Tailor is a backend platform that helps enterprises build their tailor-made internal tools 10-times faster.\n\n**Team**\n\nYo and Misato have previously built a retail-tech company together and sold it for $20M to Rakuten. Yo is a three-time-acquired serial entrepreneur with a McKinsey background. Misato is a previous head of R&D at Mercari.\nTailor is the first YC company fully based in Japan.\n\n**The Problem**\n\n70% of the Japanese 100 billion software market is spent on customized development!\n\nHowever, Japan is not alone when it comes to customizing the legacy ERP system in a large enterprise.\n\nLegacy, monolithic systems make it very difficult to customize and hard to integrate. Every time the company wants to change something, it becomes a huge project.\n\nOn top of this, whether it’s from global or local vendors, most ERP users are frustrated with:\n\n- Clunky and complicated UI\n- Too many features that you’ll never use\n- Too less features that you actually need\n- Poor 3rd party integration options\n- No transparency / black box system\n- Just super expensive\n\n**The Solution**\n\nWhy Headless?\n\n- With our headless product, the frontend is easy to customize for clients\n- API-first approach makes it easy to connect with other existing systems or 3rd party services\n\nWhat does it mean to our clients?\n\n- Faster development\n- Reduced maintenance cost\n- Well-documented backend APIs\n\nTailor’s key capabilities:\n\n- GraphQL endpoint for flexible frontend development\n- Customizable data model templates to describe complex business logic of large enterprises\n- Customizable workflows depending on the client's specific business process\n- Directory service that can reflect complex organizational structure (e.g. matrix organization) to the workflow"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 122,
+ "fields": {
+  "company_name": "Two Dots",
+  "logo": "company_logos/logo_Cz4TdxZ.png",
+  "link": "https://www.twodots.net/",
+  "short_description": "Universal income and employment verification ",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "New York",
+  "country": null,
+  "description": "We're building a universal income & employment verification service for all underwriters, starting with large residential property managers.  From there our mission is to make all consumer underwriting more fair by enabling seamless payroll data access between companies and consumers.  "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 123,
+ "fields": {
+  "company_name": "PayO",
+  "logo": "company_logos/logo_B1w7ZMA.png",
+  "link": "https://www.payobank.in",
+  "short_description": "Mobile-first accounting and payment app for Indian businesses",
+  "founded": "2020",
+  "team_size": 40,
+  "location": "Bengaluru, India",
+  "country": null,
+  "description": "PayO is an accounting and payments app for wholesalers and distributors in India. We are helping this segment with a smart platform to manage their finances, solving problems of managing billing/invoices, payments, and inventory management with a vision to grow into a full-stack neo-banking platform.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 124,
+ "fields": {
+  "company_name": "Immuna",
+  "logo": "company_logos/logo_qsEAIs6.png",
+  "link": "http://immuna.xyz",
+  "short_description": "Risk management platform for digital asset investors",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Immuna platform helps institutional investors manage their risks of investing in digital assets. The platform monitors and proactively defends investors’ digital asset investments from unexpected exploits and undesirable economic situations. It detects on-chain exploits in real-time and extracts invested assets on behalf of the investors without needing access to their private keys. For instance: Immuna would have detected anomalous events of unexpected approval and transfers, which led to the $120M BadgerDAO Hack."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 125,
+ "fields": {
+  "company_name": "Derisk",
+  "logo": "company_logos/logo_703nKBO.png",
+  "link": "http://getderisked.com",
+  "short_description": "Key custody software that secures crypto assets for businesses",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Seattle, WA",
+  "country": null,
+  "description": "Derisk builds key custody software that secures digital assets for businesses via MPC cryptography. We previously built custody for the Libra/Novi crypto project at FB."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 126,
+ "fields": {
+  "company_name": "Ciro",
+  "logo": "company_logos/logo_zoVZk3T.png",
+  "link": "https://www.ciro.io/",
+  "short_description": "Sales prospecting platform for companies selling to SMBs",
+  "founded": "2022",
+  "team_size": 3,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Ciro is a sales prospecting tool for companies that sell to SMB and Local businesses. In addition to allowing Sales professionals to view & filter all the companies in their target industry, Ciro serves as a prospect notifications hub. It alerts B2B sales teams when a prospect's business changes in a way that increases their likelihood to buy — e.g., when the prospect stops using a competing technology, grows headcount, or acquires another business.\n\nOur initial data offering is focused on highly fragmented service industries such as medical, construction, restaurants, and hospitality. The data collected on these businesses includes firmographic, technographic, event, and individual background and contact data. Unlike static lead list providers, Ciro collects dynamic data into how prospects are changing day-to-day — such as, when a medical practice just canceled Zocdoc."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 127,
+ "fields": {
+  "company_name": "LiveTrucks",
+  "logo": "company_logos/logo_GCdFViS.png",
+  "link": "http://livetrucks.io",
+  "short_description": "Real-time visibility and alerting for Freight",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "LiveTrucks is a real-time visibility and alerting platform for Freight. If you are a shipper like Whole Foods, you can see all your truck shipments on the map and get alerts for ETAs, spoiled cargo and much more.\n\nLiveTrucks is building the freight control center for 100,000 shippers and 17,000 brokerages in the US, and helping them fix massive backlogs at ports & warehouses and mitigate supply chain issues in real time using visibility."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 128,
+ "fields": {
+  "company_name": "Mercator",
+  "logo": "company_logos/logo_WQSFARI.png",
+  "link": "http://www.mercator.tech",
+  "short_description": "Geospatial analytics made easy",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Mercator makes geospatial analytics easy. Companies can mark areas of interest – like neighborhoods, airports, or truck yards – for use by their analytics or operations teams. Co-founders Andrew and Dayton met on the Instacart data science team. Dayton earned a physics PhD at UC Berkeley before entering DS. Andrew spent six years as a SWE at Uber, where he developed pydeck, a geospatial data visualization library with over 12M downloads. Mercator is backed by Y Combinator, Rebel Fund, and Soma Capital."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 129,
+ "fields": {
+  "company_name": "Stream",
+  "logo": "company_logos/logo_uyFneLo.png",
+  "link": "http://www.stream.claims",
+  "short_description": "Smart automation for insurance claims",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "Stream automates the high-frequency, manual workflows in insurance claims adjudication. Our workflow automation saves adjusters time, drives actionable insights, improves the claimant experience, and produces better claim outcomes for the entire value chain."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 130,
+ "fields": {
+  "company_name": "Chordio",
+  "logo": "company_logos/logo_3XX6ERB.png",
+  "link": "https://chordio.com",
+  "short_description": "Planning software for remote product development teams",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Issaquah, WA",
+  "country": null,
+  "description": "Chordio is planning software for remote product development teams.\nIt brings a new standard of collaboration to enable teams to establish a\nliving source of truth for their plans, and provide visibility to stakeholders across\nengineering, sales and marketing at any level of the company. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 131,
+ "fields": {
+  "company_name": "DeploySentinel",
+  "logo": "company_logos/logo_bIdoKPI.png",
+  "link": "https://deploysentinel.com",
+  "short_description": "Fastest way for devs to fix broken tests",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Foster City, CA",
+  "country": null,
+  "description": "DeploySentinel gives engineers the debugging tools needed to eliminate unreproducible test failures from CI.\n\nInstead of having developers spend days debugging test failures with only unhelpful error logs and low resolution video from their CI, DeploySentinel brings a powerful local-like debugging experience to help developers solve issues in minutes instead."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 132,
+ "fields": {
+  "company_name": "Wolfia",
+  "logo": "company_logos/logo_pMeI66l.png",
+  "link": "https://www.wolfia.com",
+  "short_description": "Get feedback on a mobile app by sharing a link",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Mountain View",
+  "country": null,
+  "description": "Wolfia lets mobile developers get feedback on their work faster by simply sharing a link. Developers can get feedback from Product Managers, Designers and other Developers by sharing a link to an interactive version of their app, running in the browser.\n\nWe started working on this idea in July, launched one month later in August, and already had 200 unique apps uploaded on our platform."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 133,
+ "fields": {
+  "company_name": "Banabo",
+  "logo": "company_logos/logo_vsU68KX.png",
+  "link": "https://www.banabo.io/",
+  "short_description": "Ramp for Marketing",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Banabo is the first Marketing Attribution OS with the mission of getting a company’s marketing waste to zero. We help companies achieve this goal by mapping a website visitor’s entire journey through a sale, and showcasing the true impact of each touchpoint. \n\nAccurate attribution previously wasn’t possible due to GDPR in the EU, CCPA in California, and the iOS 14 Privacy Changes. And with Google banning tracking cookies in 2023, we’ve built the first fully cookieless marketing attribution solution, using zero personal data. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 134,
+ "fields": {
+  "company_name": "CrediBook",
+  "logo": "company_logos/logo_fnTZ04Q.png",
+  "link": "https://credibook.com/",
+  "short_description": "Faire for Indonesia",
+  "founded": "2020",
+  "team_size": 53,
+  "location": "Jakarta, Indonesia",
+  "country": null,
+  "description": "CrediBook digitizes the MSMEs' supply chain, from wholesale to retail, through online wholesale and bookkeeping operation system.\n\nOur online wholesale platform CrediMart aims to create an efficient inventory-sourcing. We provide online-ordering, Buy Now Pay Later (BNPL) payment method, and logistic support. We help our wholesale partners earn an additional daily income stream by 50%.\n\nOur bookkeeping app CrediBook also enables MSMEs generate financial report in less than 5 minutes and proven to speed up users’ micro-loans process from financial institutions.\nCrediBook strives to encourage more MSMEs to benefit digitalization from easy and efficient platforms that meet their needs."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 135,
+ "fields": {
+  "company_name": "Fresh Factory",
+  "logo": "company_logos/logo_2mKv7d6.png",
+  "link": "http://freshfactory.id/",
+  "short_description": "Smart Cold Chain Fulfillment Platform",
+  "founded": "2020",
+  "team_size": 100,
+  "location": "Jakarta, Indonesia",
+  "country": null,
+  "description": "We are transforming eCommerce and Direct-to-Retail fulfillment for Businesses that sells Cold Chain products. \nFresh Factory provides network of hyperlocal cold chain fulfillment centers, transportation, and equipped them with smart fulfillment management system that allows businesses to store, pick & pack, and deliver their products their consumers faster, better, and more efficient.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 136,
+ "fields": {
+  "company_name": "Onboard.io",
+  "logo": "company_logos/logo_lzPWA21.png",
+  "link": "https://onboard.io",
+  "short_description": "Manage & automate customer onboarding and implementation",
+  "founded": "2020",
+  "team_size": 6,
+  "location": "Detroit, MI",
+  "country": null,
+  "description": "Onboard is a SaaS which automates & streamlines the customer onboarding & implementation process. Easily create dynamic launch plans (customized per customer), which are collaborative with clients and visible to all stakeholders.  Onboard is built for onboarding by a team that spent a better part of the last decade onboarding some of the worlds largest brands."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 137,
+ "fields": {
+  "company_name": "Alima",
+  "logo": "company_logos/logo_wcxq5Ed.png",
+  "link": "https://alima.la",
+  "short_description": "Produce procurement made easy",
+  "founded": "2021",
+  "team_size": 20,
+  "location": "Mexico City, Mexico",
+  "country": null,
+  "description": "Alima s a B2B marketplace that simplifies the way businesses procure fresh produce in Latin America. We take care of the entire process, from planning their buying orders, ordering products, expense management, to logistics. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 138,
+ "fields": {
+  "company_name": "Cofactr",
+  "logo": "company_logos/logo_G6SKxR5.png",
+  "link": "https://www.cofactr.com/",
+  "short_description": "The automated electronics supply chain platform for hardware teams",
+  "founded": "2021",
+  "team_size": 10,
+  "location": "New York",
+  "country": null,
+  "description": "Cofactr believes hardware should be as agile and scalable as software. We’re leveraging better data and AI to build best-in-class tools for electronics supply chain management. Cofactr is a single platform for procurement, purchase and management of electronic components that works seamlessly with integrated logistics to assure that the physical management of electronics parts is always responsible and efficient.\n\nWe're a Y Combinator W22 company with growing revenue and backed with significant venture funding from VCs like Bain Capital Ventures."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 139,
+ "fields": {
+  "company_name": "Cinapse",
+  "logo": "company_logos/logo_py7EYei.png",
+  "link": "https://cinapse.io",
+  "short_description": "The Operating System of Hollywood",
+  "founded": "2020",
+  "team_size": 10,
+  "location": "Los Angeles, CA",
+  "country": null,
+  "description": "Cinapse makes it easy for a film or television crew to manage tens of thousands of digital production documents and daily workflows. We do this by providing one simple app that all crew, cast, and office staff can use on Web, iOS, and Android."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 140,
+ "fields": {
+  "company_name": "Deall Jobs",
+  "logo": "company_logos/logo_0oIYQJy.png",
+  "link": "https://usedeall.com/",
+  "short_description": "A job portal where companies see only curated top talents",
+  "founded": "2020",
+  "team_size": 20,
+  "location": "Jakarta, Indonesia",
+  "country": null,
+  "description": "Deall is a curated job portal, where only the talents we have curated can apply to vacancies. 200+ companies who onboard us save time & money by seeing only eligible and top candidates for their vacancies. Job seekers love us because they can apply to multiple top companies with one click & get responses 21X faster."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 141,
+ "fields": {
+  "company_name": "Syncware",
+  "logo": "company_logos/logo_GTIhLzi.png",
+  "link": "https://syncware.ai",
+  "short_description": "Helping warehouses optimize operations with AI ",
+  "founded": "2021",
+  "team_size": 6,
+  "location": "Singapore",
+  "country": null,
+  "description": "Labor shortage is the biggest problem faced by warehouses right now.\n\nSyncware helps warehouses operate with fewer people by levering AI to optimize various warehouse processes. They include:\n\n- Shortening picking routes so warehouse workers need to walk less\n- Optimizing the warehouse layouts, again to reduce travel time\n- Improving space utilization \n- Smart slotting (make popular products more accessible) \n\nSyncware integrates directly with any warehouse management software. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 142,
+ "fields": {
+  "company_name": "Verdn",
+  "logo": "company_logos/logo_QOjhZUh.png",
+  "link": "https://verdn.com",
+  "short_description": "An API to bundle trackable climate donations with any transaction.",
+  "founded": "2020",
+  "team_size": 3,
+  "location": "London, United Kingdom",
+  "country": null,
+  "description": "Verdn is a climate-impact API for companies and their end-customers. \n\nWith Verdn, companies direct a portion of sales towards ecosystem restoration projects (like tree planting, ocean-plastic cleanup, and coral planting), carried out by vetted NGO partners. After each sale, we send the end-customer a tracking dashboard where they can engage with updates about their positive impact.\n\nOur mission is to Ctrl+Z global ecosystem collapse by making sustainability profitable. We have planted 750,000 trees, recovered 200,000 kg of ocean-bound plastic, and have over 100+ paying customers that are seeing a 10x boost in engagement."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 143,
+ "fields": {
+  "company_name": "Workflow86",
+  "logo": "company_logos/logo_rfTx8Zk.png",
+  "link": "https://www.workflow86.com",
+  "short_description": "Document and automate your internal business processes",
+  "founded": "2020",
+  "team_size": 5,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Workflow86 is an all-in-one platform for documenting, automating and scaling your team’s internal business processes and workflows. \n\nYou use drag and drop components to document and build out your process step by step with modules like forms, business logic, document templates and more. It's no-code, so non-technical team members (bizops, HR, admin, legal, risk and compliance) can set up playbooks and processes on their own.\n\nWith Workflow86, teams are able to document and codify their workflows in one central place, massively scale their operational capacity without additional hires, and consolidate fragmented processes into one platform. \n\nStart building for free at app.workflow86.com"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 144,
+ "fields": {
+  "company_name": "Humand",
+  "logo": "company_logos/logo_gKVOiSE.png",
+  "link": "https://humand.co",
+  "short_description": "Creating digital communities for companies",
+  "founded": "2021",
+  "team_size": 34,
+  "location": "San Francisco",
+  "country": null,
+  "description": "At Humand we help companies digitize their internal communication, culture, and HR within one friendly app.\n\nHumand centralizes and allows:\n+ Internal social network 📲\n+ Forms 📄\n+ Surveys 📝\n+ Files 🗂️\n+ Digital magazine 📰\n+ Recognitions 🤩\n+ Training 📚\n+ Complete profiles 📲\n+ Chat ⌨️\n+ Tickets and inquiries ❗❓\n+ Payslips 💵\n+ Onboarding 📆\n+ Benefits 😀\n\nMore than 70 companies use Humand. Implemented by ArcelorMittal (biggest steel producer in the world), Tenaris (global leader in steel pipes production), NSG group (among the biggest glass producers in the world), and many other organizations across different countries.\n\nWe enable all workers, especially those who do not work at a desk with direct access to a computer, to be connected with your company. Humand helps to improve internal communication speed, the flow of information between collaborators, and allows to have instant and targeted reach to all employees with push notifications.\n\nIt generates a digital community of your company that improves the working environment, where employees have a greater sense of belonging, are truly connected and collaborate."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 145,
+ "fields": {
+  "company_name": "1Flow",
+  "logo": "company_logos/logo_h0s1iBw.png",
+  "link": "https://1flow.app/",
+  "short_description": "In-the-moment user feedback for mobile and web apps to unlock growth.",
+  "founded": "2021",
+  "team_size": 5,
+  "location": "San Francisco",
+  "country": null,
+  "description": "<p>1Flow is building a user engagement layer for all apps on mobile and web to help companies increase conversion and reduce churn at scale &ndash; starting with in-product user feedback collection. Our first product is a flexible tech platform to collect in-product user feedback, that directly feeds into product development so you can know why churn and conversion happen, and launch features that will have a direct ROI to a company&rsquo;s bottom line.</p>"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 146,
+ "fields": {
+  "company_name": "Unravel Carbon",
+  "logo": "company_logos/logo_NGoshrJ.png",
+  "link": "http://unravelcarbon.com",
+  "short_description": "Enterprise software for companies to track & reduce their carbon…",
+  "founded": "2021",
+  "team_size": 30,
+  "location": "Singapore, Singapore",
+  "country": null,
+  "description": "Unravel Carbon is  an enterprise software that helps companies track and reduce their carbon emissions, focusing on Asia, based in Singapore. It is the first AI-powered decarbonization platform in Asia that converts any company’s accounting data into full supply chain carbon data in seconds, generates climate solutions automatically and auto-populates regulatory disclosure reports. PropertyGuru, a Unicorn in Asia, is already using us to achieve their climate goals.\n"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 147,
+ "fields": {
+  "company_name": "Rally",
+  "logo": "",
+  "link": "https://www.rallyuxr.com/",
+  "short_description": "User Research CRM",
+  "founded": "2021",
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "Rally is a User Research CRM that makes it easy for teams to do research with their users. By automating outreach, scheduling, incentives, and participant management, Rally replaces messy spreadsheets and disjointed tooling, saving teams hours each week."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 148,
+ "fields": {
+  "company_name": "Fleek",
+  "logo": "company_logos/logo_2DXRpwQ.png",
+  "link": "https://www.joinfleek.com/",
+  "short_description": "A B2B marketplace for wholesale second hand fashion",
+  "founded": "2021",
+  "team_size": 3,
+  "location": "San Francisco",
+  "country": null,
+  "description": "Fleek is a B2B Wholesale Marketplace for second-hand fashion. Our buyers are vintage stores and online resellers; our suppliers are used clothing wholesalers, rag-houses, and donation centres."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 149,
+ "fields": {
+  "company_name": "amiloz",
+  "logo": "company_logos/logo_9jUCx6w.png",
+  "link": "http://www.amiloz.com",
+  "short_description": "We enable Latin American corner-stores procure inventory easily",
+  "founded": "2021",
+  "team_size": 45,
+  "location": "Mexico City, Mexico",
+  "country": null,
+  "description": "Corner-stores can order their inventory (milk, sugar, beer, soups etc.) on an app and have it delivered to their store the very next day. They can also get access to credit to finance the inventory purchases. This is a 100B+ market in LatAm. We are starting in Mexico City but we will be a LatAm wide company over time."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 150,
+ "fields": {
+  "company_name": "Rider",
+  "logo": "company_logos/logo_fjWyHH1.png",
+  "link": "http://withrider.com",
+  "short_description": "Modern parcel delivery for online sellers in Pakistan. ",
+  "founded": "2019",
+  "team_size": 180,
+  "location": "Karachi, Pakistan",
+  "country": null,
+  "description": "Rider is building modern parcel delivery for online sellers in Pakistan. We are doing $130K in monthly revenue, delivering 200K orders per month across 60 cities. Unlike traditional logistics players, Rider’s solution is: Easier to use (integration with shipper portals, delivery agent app, end- customer app); Quicker (route optimization, next day deliveries, 24-hour cash repayment); Transparent (resolves ‘fake attempt’ deliveries, offers live tracking) and Flexible (shipper and customer control on delivery location and times). "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 151,
+ "fields": {
+  "company_name": "Vobi",
+  "logo": "company_logos/logo_tqVwHzQ.png",
+  "link": "https://www.vobi.com.br/en",
+  "short_description": "All-in-one project management software for construction SMBs in Latam",
+  "founded": "2021",
+  "team_size": 30,
+  "location": "São Paulo, Brazil",
+  "country": null,
+  "description": "Vobi is a project management platform for small construction businesses, like home remodeling companies, contractors, architects, and interior designers.\n\nWe help them save up to 50% of their time spent on manual work, mainly on the procurement and estimation processes, so they have more time to focus on their core activities. Through Vobi, they can manage projects from start to finish, collaborate with their customers, plan, quote, and make purchases or payments to suppliers, all in one place. No more spreadsheets and papers!"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 152,
+ "fields": {
+  "company_name": "Unsaddl",
+  "logo": "company_logos/logo_Bqt1X7L.png",
+  "link": "http://unsaddl.com",
+  "short_description": "Flexible education benefits",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "New York",
+  "country": null,
+  "description": "Unsaddl enables employers to offer flexible education benefits with student loan contributions and tuition reimbursement"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 153,
+ "fields": {
+  "company_name": "Fogbender",
+  "logo": "company_logos/logo_Ixzhmfs.png",
+  "link": "https://fogbender.com",
+  "short_description": "Customer support tool purpose-built for companies that sell APIs",
+  "founded": "2020",
+  "team_size": 6,
+  "location": "Oakland, CA",
+  "country": null,
+  "description": "Fogbender helps B2B companies support customer teams: think Intercom meets Slack's shared channels.\n\nToday, all customer software is explicitly or implicitly designed for helping individuals, not teams. This is forcing B2B companies - who sell products to teams, not individuals - to augment their default customer support platform (Zendesk, Intercom, Front, etc) with a second, \"unofficial\", system: Slack's shared channels.\n\nThis causes a number of operational and logistical difficulties for both vendors and their customers, resulting in added costs, inefficiencies, and lost opportunities.\n\nWith Fogbender, B2B vendors embed a team-to-team messaging widget directly on their customer dashboard, where all users belonging to an account can - with no additional authentication - 1) see a list of currently-open issues 2) participate in conversations with their own team and the vendor, and 3) search all historical discussions."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 154,
+ "fields": {
+  "company_name": "PropelAuth",
+  "logo": "company_logos/logo_oHQjs5L.png",
+  "link": "https://www.propelauth.com",
+  "short_description": "Team-based authentication for B2B SaaS",
+  "founded": "2021",
+  "team_size": 3,
+  "location": "CA",
+  "country": null,
+  "description": "PropelAuth provides the right level of authentication for all stages of a company. New startups can use our hosted pre-built UIs which provide the simplest possible integration. Out of the box, our customers immediately have the same auth experience as large tech companies like Slack. As those startups grow, they can use our APIs and component libraries to pull aspects of the experience into their product.\n\nMore than just authentication, we will also provide useful functions tied to a \"user\" or \"organization\", like analytics, billing/subscriptions, referral programs, etc."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 155,
+ "fields": {
+  "company_name": "Topship",
+  "logo": "company_logos/logo_qWOLytl.png",
+  "link": "https://topship.africa/",
+  "short_description": "Flexport for African Merchants",
+  "founded": "2020",
+  "team_size": 10,
+  "location": "Lagos, Nigeria",
+  "country": null,
+  "description": "Topship is the easiest way for African businesses to export/import cargo freight and parcels to their suppliers, distributors and customers.  We are building Flexport for Africa.\n\nOur goal is to build a Global Distribution System that makes delivery of parcels, cargo and freight easy for African businesses. "
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 156,
+ "fields": {
+  "company_name": "SNAB",
+  "logo": "company_logos/logo_5RFuSIQ.png",
+  "link": "https://www.snabfinance.com/",
+  "short_description": "B2B Payments in \"One Click\"",
+  "founded": "2021",
+  "team_size": 6,
+  "location": "Madrid, Spain",
+  "country": null,
+  "description": "Snab aims to automate, digitize & simplify business payments & cash collections, as well as the treasury management of your business, all from one place, and in a safe manner."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 157,
+ "fields": {
+  "company_name": "Quan",
+  "logo": "company_logos/logo_qbCvAOa.png",
+  "link": "https://www.quanwellbeing.com/",
+  "short_description": "End-to-end platform to improve wellbeing and team performance. ",
+  "founded": "2020",
+  "team_size": 17,
+  "location": "The Hague, Netherlands",
+  "country": null,
+  "description": "We provide a self-assessment which identifies the underlying causes of poor wellbeing and match proven solutions for individuals and teams.\n\nhttps://www.quanwellbeing.com/"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 158,
+ "fields": {
+  "company_name": "Attain",
+  "logo": "company_logos/logo_ZpwonKc.png",
+  "link": "https://www.joinattain.com",
+  "short_description": "Faire for Convenience Stores",
+  "founded": "2022",
+  "team_size": 2,
+  "location": "Berkeley, CA",
+  "country": null,
+  "description": "Attain is a one-stop shop for convenience store owners to buy inventory across all their suppliers with higher reliability, price transparency, and product discovery.\n\nOn average, store owners buy products from over 10-15 different suppliers each week. This painful process involves shopping in massive warehouses or spending hours working with wholesaler’s sales representatives (who sometimes don’t even show up). As a result, stores waste countless hours ordering products through extremely inefficient and tedious processes. These store owners are also severely impacted by inventory shortages and revenue loss which many times results in them downsizing their business or shutting them down completely.\n\nAttain solves this problem by providing a single app to purchase products across all of their suppliers, resulting in a one-stop shop for inventory. By aggregating inventory across a multitude of suppliers and wholesalers, Attain helps stores save significant time and money while allowing them to focus on what they do best - growing their businesses.\n\nFeel free to reach out at founders@joinattain.com!"
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 159,
+ "fields": {
+  "company_name": "Better Opinions",
+  "logo": "company_logos/logo_NUq9yOu.png",
+  "link": "https://betteropinions.in/",
+  "short_description": "Prediction market of India",
+  "founded": "2021",
+  "team_size": 12,
+  "location": "Gurugram, India",
+  "country": null,
+  "description": "Better Opinions is a prediction market of India which allows users to trade their opinion on everyday topics. For example, If you think India Covid cases will decrease by 10% this week, you can trade this insight and win money if correct.\n\nOur aim is to make the app inclusive for all. The stock market unfortunately can be very technical and opaque and therefore isn’t always accessible for all. However, when we start allowing trading in categories such as cricket, politics and entertainment, not only do we make trading more relatable, but we also help improve their financial literacy."
+ }
+},
+{
+ "model": "pages.company",
+ "pk": 160,
+ "fields": {
+  "company_name": "Bracket",
+  "logo": "company_logos/logo_mbSxeIA.png",
+  "link": "https://www.usebracket.com/",
+  "short_description": "Two-way syncs between business tools and your database",
+  "founded": "2021",
+  "team_size": 3,
+  "location": "Los Angeles, CA",
+  "country": null,
+  "description": "Bracket is the data pipeline between popular business tools and backend databases. When ops teams update data in Google Sheets or Airtable, and engineers update data in the database, Bracket connects the two sources to reflect the same information. "
+ }
+},
+{
+ "model": "pages.region",
+ "pk": 1,
+ "fields": {
+  "region": "Asia",
+  "company": 145
+ }
+},
+{
+ "model": "pages.region",
+ "pk": 2,
+ "fields": {
+  "region": "Africa",
+  "company": 23
+ }
+},
+{
+ "model": "pages.region",
+ "pk": 3,
+ "fields": {
+  "region": "Europe",
+  "company": 95
+ }
+},
+{
+ "model": "pages.region",
+ "pk": 4,
+ "fields": {
+  "region": "Americas",
+  "company": 145
+ }
+},
+{
+ "model": "pages.tag",
+ "pk": 1,
+ "fields": {
+  "name": "B2B",
+  "company": 145
+ }
+},
+{
+ "model": "pages.tag",
+ "pk": 2,
+ "fields": {
+  "name": "Industries",
+  "company": 77
+ }
+},
+{
+ "model": "pages.tag",
+ "pk": 3,
+ "fields": {
+  "name": "P2P",
+  "company": 78
+ }
+},
+{
+ "model": "pages.tag",
+ "pk": 4,
+ "fields": {
+  "name": "Crypto",
+  "company": 145
+ }
+},
+{
+ "model": "pages.tag",
+ "pk": 5,
+ "fields": {
+  "name": "Trade",
+  "company": 78
+ }
+},
+{
+ "model": "pages.tag",
+ "pk": 6,
+ "fields": {
+  "name": "Argiculture",
+  "company": 7
+ }
+},
+{
+ "model": "pages.subtag",
+ "pk": 1,
+ "fields": {
+  "sub_tag": "finance",
+  "company": 145,
+  "tag": 1
+ }
+},
+{
+ "model": "pages.subtag",
+ "pk": 4,
+ "fields": {
+  "sub_tag": "trading",
+  "company": 15,
+  "tag": 1
+ }
+},
+{
+ "model": "pages.subtag",
+ "pk": 5,
+ "fields": {
+  "sub_tag": "crypto",
+  "company": 159,
+  "tag": 1
+ }
+}
+]

@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: clarity_backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - name: Django system check and migration drift
+        run: |
+          uv run python manage.py check
+          uv run python manage.py makemigrations --check --dry-run
+        env:
+          DEBUG: "true"
+          TESTING: "true"
+      - run: uv run pytest -q
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: clarity_frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: clarity_frontend/.nvmrc
+          cache: npm
+          cache-dependency-path: clarity_frontend/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: The backend image builds
+        run: docker build -t clarity-backend clarity_backend
+      - name: The nginx proxy image builds
+        run: docker build -t clarity-proxy clarity_backend/proxy
