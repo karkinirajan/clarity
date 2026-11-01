@@ -57,7 +57,10 @@ Removed because nothing used them: `drf-yasg`, `djangorestframework-simplejwt` (
 
 Removed because nothing used them: `axios`, `cors`, `codemirror`, `headlessui` (a 0.0.0 stub), `@ckeditor/*` (three packages), `@blowstack/ckeditor-nuxt`, `@nuxt/postcss8`, `autoprefixer`, `postcss`.
 
+## Verified here (Docker, 2026-11-01)
+
+The backend image and the nginx image build; the development compose stack runs on PostgreSQL 17.11 (migrations, the 158-company fixture, the API); `docker compose run --build --rm test` passes 120 tests; the production-style stack (gunicorn, PostgreSQL, the nginx image) answers pages, the API and static files through the proxy.
+
 ## Not verified here
 
-- The Docker images and the compose stacks were not built: Docker stopped being able to start containers on this machine (kernel modules for the running kernel are missing until a reboot). The Dockerfile steps mirror the ones that ran natively (`uv sync --frozen`, `collectstatic`, `migrate`, gunicorn), and both compose files pass `docker compose config`.
 - The OpenAI model name is deliberately left for you to set; no default was verified against a live account.

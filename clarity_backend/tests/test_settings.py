@@ -140,7 +140,7 @@ def test_empty_values_count_as_unset():
         HTTPS_ONLY="",
         ALLOWED_HOSTS="",
     )
-    assert v["media_root"].endswith("/clarity_backend/media")
-    assert v["static_root"].endswith("/clarity_backend/staticfiles")
+    assert v["media_root"] == str(BASE_DIR / "media")  # not "." (the project folder)
+    assert v["static_root"] == str(BASE_DIR / "staticfiles")
     assert v["docs"] is True and v["openai_timeout"] == 30.0
     assert v["hosts"] == ["localhost", "127.0.0.1"]
