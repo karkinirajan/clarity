@@ -3,23 +3,9 @@ from rest_framework.test import APITestCase
 from rest_framework.views import status
 from pages.models import (
     Company,
-    AdminNotes,
-    Social,
-    Founder,
-    Tag,
-    SubTag,
-    FounderSocialToSocial,
-    OpenaiDescription,
 )
 from pages.serializers import (
-    AdminNotesSerializer,
-    SocialSerializer,
-    FounderSocialSerializer,
-    FounderSerializer,
-    TagSerializer,
-    SubTagSerializer,
     CompanySerializer,
-    OpenaiDescriptionSerializer,
 )
 
 

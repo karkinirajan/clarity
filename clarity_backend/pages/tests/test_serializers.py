@@ -98,9 +98,7 @@ class SocialSerializerTestCase(TestCase):
         extra_fields = data_keys - expected_fields
         missing_fields = expected_fields - data_keys
         self.assertFalse(extra_fields, f"Serializer has extra fields: {extra_fields}")
-        self.assertFalse(
-            missing_fields, f"Serializer is missing fields: {missing_fields}"
-        )
+        self.assertFalse(missing_fields, f"Serializer is missing fields: {missing_fields}")
         self.assertEqual(data_keys, expected_fields)
 
 
@@ -152,9 +150,7 @@ class FounderSerializerTestCase(TestCase):
 
     def test_founder_serializer(self):
         serializer = FounderSerializer(instance=self.founder)
-        expected_fields = set(
-            ["id", "name", "role", "company", "foundersocialtosocial_set"]
-        )
+        expected_fields = set(["id", "name", "role", "company", "foundersocialtosocial_set"])
         self.assertEqual(set(serializer.data.keys()), expected_fields)
 
 
@@ -238,9 +234,7 @@ class OpenaiDescriptionSerializerTestCase(TestCase):
 
     def test_contains_expected_fields(self):
         data = self.serializer.data
-        self.assertEqual(
-            set(data.keys()), set(["id", "company", "prompt", "generated_text"])
-        )
+        self.assertEqual(set(data.keys()), set(["id", "company", "prompt", "generated_text"]))
 
     def test_company_field_content(self):
         data = self.serializer.data

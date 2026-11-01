@@ -1,31 +1,40 @@
-from datetime import timedelta
-from pathlib import Path
-import re
-import os
+"""Django settings. Everything environment-specific comes from environment variables (see
+.env.example; ``manage.py`` also loads a local ``.env``). Nothing secret is stored in the repository."""
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+import os
+from pathlib import Path
+
+import dj_database_url
+from django.core.exceptions import ImproperlyConfigured
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-SECRET_KEY
-SECRET_KEY = "sdasd2easdasd345dfsdfsdf32sdfsdfsdf3"
-# https://docs.djangoproject.com/en/dev/ref/settings/#debug
-DEBUG = True
-# https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 
-ALLOWED_HOSTS = [
-    "35.153.67.2",
-    "localhost",
-    "127.0.0.1",
-]
+def env(name, default=""):
+    """An environment variable; an empty one counts as unset (``.env`` files often list optional
+    variables with nothing after the ``=``)."""
+    return os.environ.get(name) or default
 
-# ALLOWED_HOSTS.extend(
-#     filter(
-#         None,
-#         os.environ.get("ALLOWED_HOSTS", "").split(","),
-#     )
-# )
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
+def env_bool(name, default=False):
+    return str(env(name, default)).strip().lower() in {"1", "true", "yes", "on"}
+
+
+def env_list(name, default=""):
+    return [v.strip() for v in env(name, default).split(",") if v.strip()]
+
+
+DEBUG = env_bool("DEBUG", False)
+
+SECRET_KEY = env("SECRET_KEY")
+if not SECRET_KEY:
+    if not DEBUG:
+        raise ImproperlyConfigured("Set SECRET_KEY (or DEBUG=true for local work).")
+    SECRET_KEY = "django-insecure-local-development-only"
+
+ALLOWED_HOSTS = env_list("ALLOWED_HOSTS", "localhost,127.0.0.1")
+CSRF_TRUSTED_ORIGINS = env_list("CSRF_TRUSTED_ORIGINS")
+
 INSTALLED_APPS = [
     "jazzmin",
     "django.contrib.admin",
@@ -34,25 +43,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "django.contrib.sites",
-    # Third-party apps
     "rest_framework",
     "corsheaders",
     "drf_spectacular",
-    "crispy_forms",
-    "crispy_bootstrap5",
-    "django_extensions",
-    "drf_yasg",
-    "whitenoise.runserver_nostatic",
-    "widget_tweaks",
     "ckeditor",
     "import_export",
-    # Local apps
     "pages",
-    "nuxt_app",
-]  # This is the app that serves the Vue app
+]
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#middleware
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
@@ -65,22 +63,16 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-# CKEDITOR_BASEPATH = "/my_static/ckeditor/ckeditor/"
-# https://docs.djangoproject.com/en/dev/ref/settings/#root-urlconf
 ROOT_URLCONF = "clarity.urls"
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#wsgi-application
 WSGI_APPLICATION = "clarity.wsgi.application"
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#templates
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates"],
+        "DIRS": [],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
-                "django.template.context_processors.debug",
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
@@ -89,143 +81,47 @@ TEMPLATES = [
     },
 ]
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#databases
+# SQLite file by default (the path the project always used); DATABASE_URL selects PostgreSQL etc.
+# (An empty DATABASE_URL counts as unset: dj_database_url.config() would return {} for it.)
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "databases/db.sqlite3",
-    }
+    "default": dj_database_url.parse(
+        os.environ.get("DATABASE_URL") or f"sqlite:///{BASE_DIR / 'databases' / 'db.sqlite3'}",
+        conn_max_age=600,
+    )
 }
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql_psycopg2",
-#         "NAME": "clarity_db",
-#         "USER": "clarity",
-#         "PASSWORD": "clarity",
-#         "HOST": "localhost",
-#         "PORT": "5432",
-#     }
-# }
 
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
-    },
-    {
-        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
-    },
-    {
-        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
-    },
-    {
-        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
-    },
+    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
+    {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
+    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
+    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
 ]
 
-JAZZMIN_SETTINGS = {
-    # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Clarity Admin",
-    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_header": "Clarity",
-    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "Clarity",
-    # Logo to use for your site, must be present in static files, used for brand on top left
-    "site_icon": None,
-    # Welcome text on the login screen
-    "welcome_sign": "Welcome to the Clarity",
-    # Copyright on the footer
-    "copyright": "Clarity Pvt Ltd",
-    # List of model admins to search from the search bar, search bar omitted if excluded
-    # If you want to use a single search field you dont need to use a list, you can use a simple string
-    "search_model": ["auth.User", "auth.Group"],
-    # Field name on user model that contains avatar ImageField/URLField/Charfield or a callable that receives the user
-    #############
-    # Side Menu #
-    #############
-    # Whether to display the side menu
-    "show_sidebar": True,
-    # Whether to aut expand the menu
-    "navigation_expanded": True,
-    # Hide these apps when generating side menu e.g (auth)
-    "order_with_respect_to": ["auth", "books", "books.author", "books.book"],
-    # Custom links to append to app groups, keyed on app name
-    # Icons that are used when one is not manually specified
-    "default_icon_parents": "fas fa-chevron-circle-right",
-    "default_icon_children": "fas fa-circle",
-    # Whether to link font from fonts.googleapis.com (use custom_css to supply font otherwise)
-    "use_google_fonts_cdn": True,
-    # Whether to show the UI customizer on the sidebar
-    "changeform_format": "horizontal_tabs",
-    # override change forms on a per modeladmin basis
-    "changeform_format_overrides": {
-        "auth.user": "collapsible",
-        "auth.group": "vertical_tabs",
-    },
-}
-
-# https://docs.djangoproject.com/en/dev/topics/i18n/
-# https://docs.djangoproject.com/en/dev/ref/settings/#language-code
 LANGUAGE_CODE = "en-us"
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#time-zone
 TIME_ZONE = "UTC"
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-USE_I18N
 USE_I18N = True
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#use-l10n
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#use-tz
 USE_TZ = True
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#static-root
-
-# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / "static"
+STATIC_ROOT = Path(env("STATIC_ROOT", BASE_DIR / "staticfiles"))
 MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
-# http://whitenoise.evans.io/en/stable/django.html#add-compression-and-caching-support
-# STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+MEDIA_ROOT = Path(env("MEDIA_ROOT", BASE_DIR / "media"))
+STORAGES = {
+    "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
+    "staticfiles": {"BACKEND": "whitenoise.storage.CompressedStaticFilesStorage"},
+}
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-# django-crispy-forms
-# https://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
+# Django 6 assumes https:// for a URL typed without a scheme in forms; opt in now.
+FORMS_URLFIELD_ASSUME_HTTPS = True
+EMAIL_BACKEND = env("EMAIL_BACKEND", "django.core.mail.backends.console.EmailBackend")
 
-# https://docs.djangoproject.com/en/dev/ref/settings/#email-backend
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-
-# django-debug-toolbar
-# https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
-# https://docs.djangoproject.com/en/dev/ref/settings/#internal-ips
-if DEBUG:
-    MIDDLEWARE += ("debug_toolbar.middleware.DebugToolbarMiddleware",)
-    INSTALLED_APPS += ("debug_toolbar",)
-    INTERNAL_IPS = ("127.0.0.1",)
-    DEBUG_TOOLBAR_CONFIG = {
-        "INTERCEPT_REDIRECTS": False,
-    }
-if not DEBUG:
-    del MIDDLEWARE[0]
-
+# The public data is read-only; everything not marked AllowAny in the views needs a staff login.
 REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
-        "rest_framework.authentication.TokenAuthentication",
-        "rest_framework.authentication.BasicAuthentication",
-        "rest_framework.authentication.SessionAuthentication",
-    ),
-    "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.AllowAny",
-    ],
+    "DEFAULT_AUTHENTICATION_CLASSES": ("rest_framework.authentication.SessionAuthentication",),
+    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.IsAdminUser"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "pages.utils.custom_exception_handler",
-    "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.URLPathVersioning",
-    "DEFAULT_VERSION": "2.0",
-    "VERSION_PARAM": "api_version",
-    "DEFAULT_THROTTLE_RATES": {"login_rate": "20/minute"},
     "DATETIME_FORMAT": "%m/%d/%Y %H:%M:%S",
 }
 
@@ -235,38 +131,66 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "1.0.1",
 }
 
-IGNORABLE_404_URLS = [
-    re.compile(r"\.(png|gif|jpeg|jpg)$"),
-    re.compile(r"^/favicon\.ico$"),
-    re.compile(r"^/robots\.txt$"),
-]
+# OpenAPI schema and Swagger / Redoc pages (on by default only in development).
+API_DOCS_ENABLED = env_bool("API_DOCS_ENABLED", DEBUG)
 
-GRAPH_MODELS = {
-    "all_applications": True,
-    "group_models": True,
+# Origins of the front-end that call the API from the browser. (The old settings also had
+# CORS_ORIGIN_ALLOW_ALL = True, which made the list below pointless.)
+CORS_ALLOWED_ORIGINS = env_list("CORS_ALLOWED_ORIGINS", "http://localhost:3000")
+
+# Drafting company descriptions with OpenAI. Without both values nothing is sent and the
+# description is simply saved without generated text.
+OPENAI_API_KEY = env("OPENAI_API_KEY")
+OPENAI_MODEL = env("OPENAI_MODEL")
+OPENAI_TIMEOUT = float(env("OPENAI_TIMEOUT", "30"))
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Clarity Admin",
+    "site_header": "Clarity",
+    "site_brand": "Clarity",
+    "site_icon": None,
+    "welcome_sign": "Welcome to the Clarity",
+    "copyright": "Clarity Pvt Ltd",
+    "search_model": ["auth.User", "auth.Group"],
+    "show_sidebar": True,
+    "navigation_expanded": True,
+    "default_icon_parents": "fas fa-chevron-circle-right",
+    "default_icon_children": "fas fa-circle",
+    "use_google_fonts_cdn": True,
+    "changeform_format": "horizontal_tabs",
+    "changeform_format_overrides": {
+        "auth.user": "collapsible",
+        "auth.group": "vertical_tabs",
+    },
 }
 
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://54.165.82.79"]
-SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(weeks=1),
-    "REFRESH_TOKEN_LIFETIME": timedelta(weeks=4),
-    "AUTH_HEADER_TYPES": ("Bearer",),
-    "UPDATE_LAST_LOGIN": True,
-    "ROTATE_REFRESH_TOKENS": True,
-    "BLACKLIST_AFTER_ROTATION": False,
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {"console": {"class": "logging.StreamHandler"}},
+    "root": {"handlers": ["console"], "level": env("LOG_LEVEL", "INFO")},
 }
 
-# django-allauth config
-# https://docs.djangoproject.com/en/dev/ref/settings/#site-id
-SITE_ID = 1
+# ----- production hardening ---------------------------------------------------------------------
+# The old settings ran ``del MIDDLEWARE[0]`` when DEBUG was off, which removed SecurityMiddleware
+# (the HTTPS redirect, HSTS, nosniff) in exactly the environment that needs it.
+if not DEBUG:
+    # HTTPS_ONLY=false is for a deployment that is reached over plain HTTP (for example the bundled
+    # nginx on port 80 with TLS terminated elsewhere or not at all): secure cookies would never be
+    # sent back, which locks everyone out of the admin.
+    HTTPS_ONLY = env_bool("HTTPS_ONLY", True)
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+    SECURE_SSL_REDIRECT = HTTPS_ONLY
+    SESSION_COOKIE_SECURE = HTTPS_ONLY
+    CSRF_COOKIE_SECURE = HTTPS_ONLY
+    SECURE_HSTS_SECONDS = int(env("HSTS_SECONDS", "3600")) if HTTPS_ONLY else 0
 
-# https://django-allauth.readthedocs.io/en/latest/installation.html?highlight=backends
-AUTHENTICATION_BACKENDS = ("django.contrib.auth.backends.ModelBackend",)
-# https://django-allauth.readthedocs.io/en/latest/configuration.html
-ACCOUNT_SESSION_REMEMBER = True
-ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
-ACCOUNT_USERNAME_REQUIRED = False
-ACCOUNT_AUTHENTICATION_METHOD = "email"
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_UNIQUE_EMAIL = True
+if DEBUG and not env_bool("TESTING", False):
+    try:  # development tools live in the optional dev dependency group
+        import debug_toolbar  # noqa: F401
+    except ImportError:
+        pass
+    else:
+        INSTALLED_APPS += ["debug_toolbar"]
+        MIDDLEWARE += ["debug_toolbar.middleware.DebugToolbarMiddleware"]
+        INTERNAL_IPS = ["127.0.0.1"]

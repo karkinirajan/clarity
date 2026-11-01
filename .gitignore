@@ -1,0 +1,33 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Runtime data: the database, uploaded logos and collectstatic output live in volumes, not in git
+clarity_backend/databases/
+clarity_backend/media/
+clarity_backend/staticfiles/
+clarity_backend/static/
+db.sqlite3
+
+# Node / Nuxt
+node_modules/
+.nuxt/
+.output/
+.data/
+.nitro/
+.cache/
+dist/
+coverage/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

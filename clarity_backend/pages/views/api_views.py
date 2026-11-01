@@ -1,41 +1,113 @@
+"""Read-only API. The directory (companies, tags, regions, socials, founders) is public; the
+administrative notes and the generated descriptions are internal and need a staff login. The
+default permission is ``IsAdminUser``, so anything not marked ``AllowAny`` is private."""
+
 from rest_framework import generics
+from rest_framework.permissions import AllowAny
+
 from pages.models import (
-    Company,
     AdminNotes,
-    Region,
-    Social,
+    Company,
     Founder,
-    Tag,
-    SubTag,
     FounderSocialToSocial,
     OpenaiDescription,
+    Region,
+    Social,
+    SubTag,
+    Tag,
 )
 from pages.serializers import (
     AdminNotesSerializer,
-    SocialSerializer,
-    FounderSocialSerializer,
-    FounderSerializer,
-    RegionSerializer,
-    TagSerializer,
-    SubTagSerializer,
     CompanySerializer,
+    FounderSerializer,
+    FounderSocialSerializer,
     OpenaiDescriptionSerializer,
+    RegionSerializer,
+    SocialSerializer,
+    SubTagSerializer,
+    TagSerializer,
 )
-from pages.utils import upload_images_from_csv
 
 
-class CompanyListView(generics.ListAPIView):
-    # upload_images_from_csv()
+class PublicList(generics.ListAPIView):
+    permission_classes = [AllowAny]
 
+
+class PublicDetail(generics.RetrieveAPIView):
+    permission_classes = [AllowAny]
+
+
+class CompanyListView(PublicList):
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
 
 
-class CompanyDetailView(generics.RetrieveAPIView):
+class CompanyDetailView(PublicDetail):
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
 
 
+class SocialListView(PublicList):
+    queryset = Social.objects.select_related("company")
+    serializer_class = SocialSerializer
+
+
+class SocialDetailView(PublicDetail):
+    queryset = Social.objects.select_related("company")
+    serializer_class = SocialSerializer
+
+
+class FounderSocialListView(PublicList):
+    queryset = FounderSocialToSocial.objects.all()
+    serializer_class = FounderSocialSerializer
+
+
+class FounderSocialDetailView(PublicDetail):
+    queryset = FounderSocialToSocial.objects.all()
+    serializer_class = FounderSocialSerializer
+
+
+class FounderListView(PublicList):
+    queryset = Founder.objects.prefetch_related("foundersocialtosocial_set")
+    serializer_class = FounderSerializer
+
+
+class FounderDetailView(PublicDetail):
+    queryset = Founder.objects.prefetch_related("foundersocialtosocial_set")
+    serializer_class = FounderSerializer
+
+
+class RegionListView(PublicList):
+    queryset = Region.objects.all()
+    serializer_class = RegionSerializer
+
+
+class RegionDetailView(PublicDetail):
+    queryset = Region.objects.all()
+    serializer_class = RegionSerializer
+
+
+class TagListView(PublicList):
+    queryset = Tag.objects.all()
+    serializer_class = TagSerializer
+
+
+class TagDetailView(PublicDetail):
+    queryset = Tag.objects.all()
+    serializer_class = TagSerializer
+
+
+class SubTagListView(PublicList):
+    queryset = SubTag.objects.all()
+    serializer_class = SubTagSerializer
+
+
+class SubTagDetailView(PublicDetail):
+    queryset = SubTag.objects.all()
+    serializer_class = SubTagSerializer
+
+
+# ----- internal: staff only (the project default permission) ----------------------------------
 class AdminNotesListView(generics.ListAPIView):
     queryset = AdminNotes.objects.all()
     serializer_class = AdminNotesSerializer
@@ -44,66 +116,6 @@ class AdminNotesListView(generics.ListAPIView):
 class AdminNotesDetailView(generics.RetrieveAPIView):
     queryset = AdminNotes.objects.all()
     serializer_class = AdminNotesSerializer
-
-
-class SocialListView(generics.ListAPIView):
-    queryset = Social.objects.all()
-    serializer_class = SocialSerializer
-
-
-class SocialDetailView(generics.RetrieveAPIView):
-    queryset = Social.objects.all()
-    serializer_class = SocialSerializer
-
-
-class FounderSocialListView(generics.ListAPIView):
-    queryset = FounderSocialToSocial.objects.all()
-    serializer_class = FounderSocialSerializer
-
-
-class FounderSocialDetailView(generics.RetrieveAPIView):
-    queryset = FounderSocialToSocial.objects.all()
-    serializer_class = FounderSocialSerializer
-
-
-class FounderListView(generics.ListAPIView):
-    queryset = Founder.objects.all()
-    serializer_class = FounderSerializer
-
-
-class FounderDetailView(generics.RetrieveAPIView):
-    queryset = Founder.objects.all()
-    serializer_class = FounderSerializer
-
-
-class RegionListView(generics.ListAPIView):
-    queryset = Region.objects.all()
-    serializer_class = RegionSerializer
-
-
-class RegionDetailView(generics.RetrieveAPIView):
-    queryset = Region.objects.all()
-    serializer_class = RegionSerializer
-
-
-class TagListView(generics.ListAPIView):
-    queryset = Tag.objects.all()
-    serializer_class = TagSerializer
-
-
-class TagDetailView(generics.RetrieveAPIView):
-    queryset = Tag.objects.all()
-    serializer_class = TagSerializer
-
-
-class SubTagListView(generics.ListAPIView):
-    queryset = SubTag.objects.all()
-    serializer_class = SubTagSerializer
-
-
-class SubTagDetailView(generics.RetrieveAPIView):
-    queryset = SubTag.objects.all()
-    serializer_class = SubTagSerializer
 
 
 class OpenaiDescriptionListView(generics.ListAPIView):

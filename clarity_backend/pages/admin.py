@@ -31,7 +31,7 @@ class CompanyAdmin(ImportExportModelAdmin, admin.ModelAdmin):
         OpenaiDescriptionInline,
         AdminNotesInline,
     ]
-    search_fields = ("company_name", "team_size", "location", "company")
+    search_fields = ("company_name", "location", "country")  # "company" is not a field
 
 
 admin.site.register(AdminNotes)

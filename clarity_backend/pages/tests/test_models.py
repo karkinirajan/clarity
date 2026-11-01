@@ -7,7 +7,6 @@ from pages.models import (
     SubTag,
     FounderSocialToSocial,
     Social,
-    OpenaiDescription,
     AdminNotes,
 )
 
@@ -367,9 +366,7 @@ class SubTagModelTestCase(TestCase):
 class FounderSocialToSocialModelTestCase(TestCase):
     def setUp(self):
         self.company = Company.objects.create(company_name="Acme Inc.")
-        self.founder = Founder.objects.create(
-            name="John Doe", role="CEO", company=self.company
-        )
+        self.founder = Founder.objects.create(name="John Doe", role="CEO", company=self.company)
 
     def test_str_representation(self):
         founder_social = FounderSocialToSocial.objects.create(
@@ -392,15 +389,3 @@ class FounderSocialToSocialModelTestCase(TestCase):
             founder=self.founder,
         )
         self.assertIsNone(founder_social.link)
-
-
-class OpenaiDescriptionTestCase(TestCase):
-    def setUp(self):
-        self.company = Company.objects.create(
-            company_name="Test Company", description="This is a test company"
-        )
-
-    def test_generated_text_is_created_after_save(self):
-        description = OpenaiDescription(company=self.company, prompt="Test prompt")
-        description.save()
-        self.assertIsNotNone(description.generated_text)

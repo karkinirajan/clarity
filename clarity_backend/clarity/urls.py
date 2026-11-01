@@ -1,34 +1,25 @@
 from django.conf import settings
-from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import include, path, re_path
+from django.urls import include, path
+from django.views.generic import RedirectView
 from drf_spectacular.views import (
     SpectacularAPIView,
     SpectacularRedocView,
     SpectacularSwaggerView,
 )
 
-from nuxt_app.views import index_view
+from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("pages.urls")),
+    path("health/", views.health, name="health"),
 ]
 
-urlpatterns += i18n_patterns()
-
-if settings.DEBUG:
-    import debug_toolbar
-
+if settings.API_DOCS_ENABLED:
     urlpatterns += [
-        path("admin/doc/", include("django.contrib.admindocs.urls")),
-        path("api-auths/", include("rest_framework.urls"), name="rest_framework"),
-        path("__debug__/", include(debug_toolbar.urls)),
-    ]
-
-    urlpatterns += [
-        # path('swagger/doc/', schema_view, name="docs"),
+        path("", RedirectView.as_view(pattern_name="swagger-ui"), name="index"),
         path("swagger/schema/", SpectacularAPIView.as_view(), name="schema"),
         path(
             "swagger/docs/",
@@ -42,34 +33,14 @@ if settings.DEBUG:
         ),
     ]
 
-"""
-Generates a regex with reverse lookup of urls including static an>
-This regex is then used in re_path of Vue's index.html.
-This is done to handle any django url without a trailing slash.
-"""
-
-urls = list()
-if settings.STATIC_URL:
-    static_url = settings.STATIC_URL
-    if static_url != "/":
-        static_url = static_url.strip("/")
-    urls.append(static_url)
-
-if settings.MEDIA_URL:
-    media_url = settings.MEDIA_URL
-    if media_url != "/":
-        media_url = media_url.strip("/")
-    urls.append(media_url)
-
-for url in urlpatterns:
-    urls.append(str(url.pattern).strip("/"))
-
-pattern_base = f'(?!{"|".join(urls)})'
-pattern_index = f"^{pattern_base}.*$"
-# print(pattern_index)
-urlpatterns += [
-    re_path(pattern_index, SpectacularSwaggerView.as_view(), name="index"),
-]
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+if settings.DEBUG:
+    urlpatterns += [path("api-auths/", include("rest_framework.urls"), name="rest_framework")]
+    # In production the reverse proxy serves /media/ (and WhiteNoise serves /static/).
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    try:
+        import debug_toolbar
+    except ImportError:
+        pass
+    else:
+        if "debug_toolbar" in settings.INSTALLED_APPS:
+            urlpatterns += [path("__debug__/", include(debug_toolbar.urls))]
