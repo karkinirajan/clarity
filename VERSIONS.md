@@ -7,7 +7,7 @@ Read from `clarity_backend/uv.lock`, `clarity_frontend/package-lock.json` (insta
 | Component | Version | Where it is set |
 |---|---|---|
 | Python | 3.13 (image `python:3.13-slim-trixie`; was 3.9 in the old Dockerfile) | `clarity_backend/.python-version`, `pyproject.toml`, `Dockerfile` |
-| Node | 24 recommended, `>=22` required (built and tested on 24.22.1 and 26.12.1) | `clarity_frontend/.nvmrc`, `package.json` (`engines`) |
+| Node | 26 recommended, `>=22` required (built and tested on 24.22.1 and 26.13.0) | `clarity_frontend/.nvmrc`, `package.json` (`engines`) |
 | uv (in the image) | 0.13.6 | `clarity_backend/Dockerfile` |
 | PostgreSQL | 17 (image `postgres:17-alpine`; was 13) | `docker-compose*.yml` |
 | nginx | `nginxinc/nginx-unprivileged:1-alpine` | `clarity_backend/proxy/Dockerfile` |

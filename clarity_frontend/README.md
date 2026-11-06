@@ -13,7 +13,7 @@ The web app of Clarity: a server-rendered Nuxt 4 application that shows the comp
 
 ## Quickstart
 
-Requires Node 22 or newer (`.nvmrc` says 24) and a running API (see the backend README).
+Requires Node 22 or newer (`.nvmrc` says 26) and a running API (see the backend README).
 
 ```bash
 npm install
